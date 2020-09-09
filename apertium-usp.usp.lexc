@@ -44,6 +44,7 @@ LEXICON Root
                                        Propios ; 
                                        Numerales ; 
                                        Determinantes ; 
+                                       Pronombres ; 
                                        Adjetivos ; 
                                        Adverbios ; 
 
@@ -52,6 +53,7 @@ LEXICON Root
 LEXICON Prefijos
 
 Posesivo ;
+Aspecto ;
 
 LEXICON Posesivo 
 
@@ -72,7 +74,13 @@ LEXICON Nominales
                                                              Sustantivos ;
                                                              Poseídos ;
 
+LEXICON Aspecto 
+
+%<perf%>:x%>                                                 A-IV ; 
+%<perf%>:x%>                                                 A-TV ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON Sufijos1
 
@@ -87,6 +95,44 @@ LEXICON Sufijos3
 
 @D.Poss@:@D.Poss@                                            # ;
 @R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
+
+LEXICON A-IV 
+
+%<s_sg1%>:in%>                                               IV ;
+%<s_sg2%>:at%>                                               IV ;
+%<s_sg3%>:                                                   IV ;
+%<s_sg1%>:oj%>                                               IV ;
+%<s_sg2%>:at%>                                               IV ;
+%<s_sg3%>:                                                   IV ;
+
+LEXICON A-TV 
+
+%<o_sg1%>:in%>                                               B-TV ;
+%<o_sg2%>:at%>                                               B-TV ;
+%<o_sg3%>:                                                   B-TV ;
+%<o_pl1%>:oj%>                                               B-TV ;
+%<o_pl2%>:at%>                                               B-TV ;
+%<o_pl3%>:                                                   B-TV ;
+
+LEXICON B-TV
+
+%<s_sg1%>:in%{w%}%>                                          TV ;
+%<s_sg2%>:a%{w%}%>                                           TV ;
+%<s_sg3%>:%{j%}%>                                            TV ; 
+%<s_pl1%>:q%{a%}%>                                           TV ;
+%<s_pl2%>:a%{w%}%>                                           TV ;
+%<s_pl3%>:                                                   TV ; 
+%<s_pl3%>:%{j%}%>                                            TV ; 
+
+
+LEXICON V-IV 
+
+%<v%>%<iv%>:                                                 # ;
+
+LEXICON V-TV 
+
+%<v%>%<tv%>:                                                 # ;
+
 
 LEXICON N1
 
@@ -166,9 +212,13 @@ LEXICON TOP
 
 %<np%>%<top%>:                                               # ;
 
-LEXICON ADV
+LEXICON ADV1
 
 %<adv%>:                                                     # ; 
+
+LEXICON ADV2
+
+%<adv%>%<itg%>:                                              # ; 
 
 LEXICON DET1
 
@@ -177,6 +227,11 @@ LEXICON DET1
 LEXICON DET2
 
 %<det%>%<pl%>:                                               # ; 
+
+LEXICON PRON2
+
+%<prn%>%<itg%>:                                              # ; 
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -188,8 +243,16 @@ aj%<gen%>:aj                 # ;
 no%<neg%>:no                 # ;
 taʼ%<neg%>:taʼ               # ;
 
+tijin%<aux%>:tijin           # ;
+
+taq%<pl%>:taq                # ;
+
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
+
+LEXICON Pronombres
+
+neen:neen                    PRON2 ; ! "qué"
 
 LEXICON Determinantes 
 
@@ -284,5 +347,30 @@ pool:pool                    A ; ! "blanco" < flor
 
 LEXICON Adverbios 
 
-chweʼq:chweʼq                ADV ; ! "mañana"
-íwir:íwir                    ADV ; ! "ayer"
+lamaas:lamaas                ADV2 ; ! "dónde"
+
+chweʼq:chweʼq                ADV1 ; ! "mañana"
+íwir:íwir                    ADV1 ; ! "ayer"
+
+LEXICON TV
+
+:%> TVʼ ;
+
+LEXICON IV
+
+:%> IVʼ ;
+
+LEXICON IVʼ
+
+war:war                      V-IV ; ! "dormir"
+wiʼn:wiʼn                    V-IV ; ! "comer"
+oqʼ:oqʼ                      V-IV ; ! "llorar"
+
+LEXICON TVʼ
+
+chap:chap                    V-TV ; ! "agarrar"
+kʼam:kʼam                    V-TV ; ! "recibir"
+il:il                        V-TV ; ! "ver"
+tukʼ:tukʼ                    V-TV ; ! "empujar"
+kʼut:kʼut                    V-TV ; ! "enseñar"
+
