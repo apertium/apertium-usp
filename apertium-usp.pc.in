@@ -1,0 +1,7 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-usp
+
+Name: apertium-usp
+Description: Finite-state morphological transducer and constraint grammar for Uspanteko
+Version: @VERSION@

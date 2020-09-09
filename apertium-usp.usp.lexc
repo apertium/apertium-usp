@@ -1,0 +1,64 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Multichar_Symbols
+
+%<n%>                                  ! Sustantivo
+
+
+%<px1sg%>                              ! Posesivo de 1ra persona singular
+%<px2sg%>
+%<px3sg%>
+%<px1pl%>
+%<px2pl%>
+%<px3pl%>
+
+@D.Poss@             !
+@P.Poss.No@        !
+@R.Poss.No@        !
+@P.Poss.Pl@        !
+@R.Poss.Pl@        !
+
+%>
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Prefijos ; 
+@P.Poss.No@:@P.Poss.No@                Sustantivos ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prefijos
+
+Posesivo ;
+
+LEXICON Posesivo 
+
+%<px1sg%>:%{í%}n%>                                           Nominales ; 
+%<px2sg%>:a%{w%}%>                                           Nominales ; 
+%<px3sg%>:%{j%}%>                                            Nominales ; 
+%<px1pl%>:q%{a%}%>                                           Nominales ; 
+@P.Poss.Pl@%<px2pl%>:@P.Poss.Pl@a%{w%}%>                     Nominales ; 
+@P.Poss.Pl@%<px3pl%>:@P.Poss.Pl@%{j%}%>                      Nominales ; 
+
+LEXICON Nominales 
+                                                             Sustantivos ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Sufijos1
+
+@D.Poss@:@D.Poss@                                            # ;
+@R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
+
+LEXICON N 
+
+%<n%>:                                                       Sufijos1 ; 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON Sustantivos 
+
+íxim:íxim                    N ; ! "maíz" [#]
+óoj:óoj                      N ; ! "aguacate" [#]
