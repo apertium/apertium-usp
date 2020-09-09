@@ -3,9 +3,13 @@ Multichar_Symbols
 
 %<n%>                                  ! Sustantivo
 %<np%>                                 ! Nombre propio
+%<det%>                                ! Determinante
+%<adj%>                                ! Adjetivos 
 
 
 %<cog%>                                ! Cognomen
+
+%<ints%>                               ! Intensificador
 
 %<px1sg%>                              ! Posesivo de 1ra persona singular
 %<px2sg%>
@@ -36,6 +40,8 @@ LEXICON Root
                                        Miscellaneous ;
                                        Prefijos ; 
                                        Propios ; 
+                                       Determinantes ; 
+                                       Adjetivos ; 
 @P.Poss.No@:@P.Poss.No@                Sustantivos ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -117,6 +123,11 @@ LEXICON N7
 
 %<n%>:                                                       Sufijos3 ; 
 
+LEXICON A
+
+%<adj%>:                                                     # ; 
+%<adj%>%<ints%>:%>laj                                        # ; 
+
 LEXICON COG1
 
 %<np%>%<cog%>:                                               # ;
@@ -144,6 +155,9 @@ LEXICON TOP
 
 %<np%>%<top%>:                                               # ;
 
+LEXICON DET
+
+%<det%>:                                                     # ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -151,6 +165,12 @@ LEXICON Miscellaneous
 
 ra%<dim%>:ra                 # ;
 aj%<gen%>:aj                 # ;
+no%<neg%>:no                 # ;
+ta’%<neg%>:ta’               # ;
+
+LEXICON Determinantes 
+
+li:li                        DET ; ! "el"
 
 LEXICON Sustantivos 
 
@@ -202,7 +222,28 @@ Aware:Aware                  COG3 ;
 
 Treʼs:Treʼs                  ANTF ; ! "Teresa" [#]
 Terees:Terees                ANTF ; ! "Teresa" [#]
-Tz’únun:Tz’únun              ANTF ; ! "" [#]
+Tzʼúnun:Tzʼúnun              ANTF ; ! "" [#]
 
 Liip:Liip                    ANTM ; ! "Felipe" [#]
 
+LEXICON Adjetivos 
+
+saq:saq                      A ; ! "blanco"
+rex:rex                      A ; ! "verde"
+keq:keq                      A ; ! "rojo"
+qʼeq:qʼeq                    A ; ! "negro"
+qʼan:qʼan                    A ; ! "amarillo"
+
+chʼam:chʼam                  A ; ! "ácido"
+kiʼ:kiʼ                      A ; ! "dulce"
+kʼaa:kʼaa                    A ; ! "amargo"
+tzaa:tzaa                    A ; ! "salado"
+rii:rii                      A ; ! "picante"
+
+nim:nim                      A ; ! "grande"
+chaal:chaal                  A ; ! "pequeño"
+nuuchʼ:nuuchʼ                A ; ! "pequeño"
+maakʼ:maakʼ                  A ; ! "pequeño"
+
+bʼot:bʼot                    A ; ! "blanco" < algodón
+pool:pool                    A ; ! "blanco" < flor
