@@ -16,6 +16,7 @@ Multichar_Symbols
 %{j%}
 %{í%}
 %{a%}
+%{ː%}
 
 @D.Poss@                               !
 @P.Poss.No@                            !
@@ -29,7 +30,8 @@ Multichar_Symbols
 
 LEXICON Root
 
-Prefijos ; 
+                                       Prefijos ; 
+                                       Propios ; 
 @P.Poss.No@:@P.Poss.No@                Sustantivos ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -41,11 +43,12 @@ Posesivo ;
 LEXICON Posesivo 
 
 !El prefijo de primera persona lleva tono cuando hace diferencia entre marcador de posesión y
-!sujeto de predicado no verbal. Es decir, si en el primera ejemplo íntz’i’ ‘mi perro’ se le quita el
-!tono in tz’i’ se interpreta como ‘soy perro’, aunque el sujeto se escriba separado del predicado.
+!sujeto de predicado no verbal. Es decir, si en el primera ejemplo íntzʼiʼ ‘mi perroʼ se le quita el
+!tono in tzʼiʼ se interpreta como ‘soy perroʼ, aunque el sujeto se escriba separado del predicado.
 
                                                                          !     _ Cns       !     _ Vow  
-%<px1sg%>:%{í%}%{n%}%{w%}%>                                  Nominales ; ! in- (ín-)¹, iin | w-, in- (inw-)
+!%<px1sg%>:%{í%}%{n%}%{w%}%>                                  Nominales ; ! in- (ín-)¹, iin | w-, in- (inw-)
+%<px1sg%>:%{í%}%{n%}%>                                       Nominales ; ! in- (ín-)       | w-
 %<px2sg%>:a%{w%}%>                                           Nominales ; ! a-              | aw-
 %<px3sg%>:%{j%}%>                                            Nominales ; ! j-              | r-
 %<px1pl%>:q%{a%}%>                                           Nominales ; ! qa-             | q-
@@ -54,6 +57,7 @@ LEXICON Posesivo
 
 LEXICON Nominales 
                                                              Sustantivos ;
+                                                             Poseídos ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -73,12 +77,58 @@ LEXICON Sufijos3
 
 LEXICON N1
 
+%<n%>:                                                       Sufijos2 ; 
 %<n%>:                                                       Sufijos1 ; 
 
 LEXICON N2
 
 %<n%>:%>ij                                                   Sufijos2 ; 
 %<n%>:%>aaj                                                  Sufijos3 ; 
+
+LEXICON N3
+
+%<n%>:                                                       Sufijos2 ; 
+%<n%>:                                                       Sufijos1 ; 
+%<n%>%<pl%>:%>iibʼ                                           Sufijos2 ; 
+%<n%>%<pl%>:%>iibʼ                                           Sufijos1 ; 
+
+LEXICON N4
+
+%<n%>:                                                       Sufijos2 ; 
+%<n%>:                                                       Sufijos1 ; 
+%<n%>%<pl%>:%>ibʼ                                            Sufijos2 ; 
+%<n%>%<pl%>:%>ibʼ                                            Sufijos1 ; 
+
+LEXICON N5
+
+%<n%>:%>niik                                                 Sufijos2 ; 
+%<n%>:                                                       Sufijos3 ; 
+
+LEXICON N6
+
+%<n%>:%>xeel                                                 Sufijos2 ; 
+%<n%>:                                                       Sufijos3 ; 
+
+LEXICON N7
+
+%<n%>:                                                       Sufijos3 ; 
+
+LEXICON COG1
+
+%<np%>%<cog%>:                                               # ;
+%<np%>%<cog%>%<pl%>:%>aabʼ                                   # ;
+
+LEXICON COG2
+
+%<np%>%<cog%>:                                               # ;
+%<np%>%<cog%>%<pl%>:%>iibʼ                                   # ;
+
+LEXICON COG3
+
+%<np%>%<cog%>:                                               # ;
+%<np%>%<cog%>%<pl%>:%>ʼiibʼ                                  # ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -88,3 +138,30 @@ LEXICON Sustantivos
 ichaaj:ich                   N2 ; ! "hierba" [#]
 íxim:íxim                    N1 ; ! "maíz" [#]
 óoj:óoj                      N1 ; ! "aguacate" [#]
+aabʼ:aabʼ                    N1 ; ! "hamaca" [#]
+tzʼiʼ:tzʼiʼ                  N1 ; ! "perro" [#]
+uuq:uuq                      N1 ; ! "corte" [#]
+tikoʼn:tikoʼn                N1 ; ! "siembra" [#]
+ikʼlaal:ikʼlaal              N1 ; ! "hijo (de mujer)" [#]
+awaj:awaj                    N3 ; ! "animal" [#]
+ajchaak:aj%>chaak            N4 ; ! "trabajador" [aj#]
+iyoom:iyoom                  N1 ; ! "comadrona" [#]
+bʼee:bʼee                    N1 ; ! "camino" [#]
+jal:ja%{ː%}l                 N1 ; ! "mazorca" [#]
+kʼum:kʼu%{ː%}m               N1 ; ! "ayote" [#]
+tiʼniik:tiʼ                  N5 ; ! "carne" [#niik]
+qʼuniik:qʼu                  N5 ; ! "chamarra" [#niik]
+jiʼxeel:ji%{ː%}ʼ             N6 ; ! "yerno" [#xeel]
+alibʼxeel:alibʼ              N6 ; ! "nuera" [#xeel]
+
+LEXICON Poseídos 
+
+iij:iij                      N7 ; ! "espalda" [-#]
+ichooch:ichooch              N7 ; ! "casa" [-#]
+
+LEXICON Propios 
+
+Koʼr:Koʼr                    COG1 ; 
+Tum:Tum                      COG2 ;
+Aware:Aware                  COG3 ; 
+

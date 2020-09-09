@@ -8,7 +8,8 @@ Alphabet
   %{í%}:í %{í%}:0
   %{j%}:j %{j%}:r
   %{w%}:w %{w%}:0
-  %{n%}:n %{n%}:0
+  %{n%}:n %{n%}:w
+  %{ː%}:0
 
   %> 
 
@@ -19,6 +20,8 @@ Sets
 Vow = a e i o u 
       á é í ó ú ; 
 
+Cns = b c d f g h j k l m n p q r s t v w x y z ʼ ; 
+
 Rules 
 
 "Alternation in third person singular possession"
@@ -27,13 +30,24 @@ Rules
 "Alternation in second person possession"
 %{a%}:0 <=> _ %>: :Vow ;
 
+!"Alternation in first person singular (I)"
+!%{w%}:w <=>  _ %>: :Vow ;
+!
+!"Alternation in first person singular (II)"
+!%{n%}:0 <=> _ %{w%}:w %>: :Vow ;
+!
+!"Alternation in first person singular (III)"
+!%{í%}:0 <=> _ %{n%}:0 %{w%}:w %>: :Vow ;
+
 "Alternation in first person singular (I)"
-%{w%}:w <=> %{í%}: %{n%} _ %>: :Vow ;
+%{n%}:w <=>  _ %>: :Vow ;
 
 "Alternation in first person singular (II)"
-%{n%}:0 <=> _ %{w%}:w %>: :Vow ;
+%{í%}:0 <=> _ %{n%}:w %>: :Vow ;
 
-"Alternation in first person singular (III)"
-%{í%}:0 <=> _ %{n%}:0 %{w%}:w %>: :Vow ;
+!@ {í}:0 {n}:w > i c h > a a j
 
-!@ {í}:0 {n}:0 {w}:w > i c h > a a j
+"Stem vowel lengthening in possession"
+%{ː%}:Vx <=> %>: Cns+ Vx _ Cns+ ; 
+          where Vx in ( a e i o u ) ;
+
