@@ -11,11 +11,17 @@ Multichar_Symbols
 %<px2pl%>
 %<px3pl%>
 
-@D.Poss@             !
-@P.Poss.No@        !
-@R.Poss.No@        !
-@P.Poss.Pl@        !
-@R.Poss.Pl@        !
+%{w%}
+%{n%}
+%{j%}
+%{í%}
+%{a%}
+
+@D.Poss@                               !
+@P.Poss.No@                            !
+@R.Poss.No@                            !
+@P.Poss.Pl@                            !
+@R.Poss.Pl@                            !
 
 %>
 
@@ -34,12 +40,17 @@ Posesivo ;
 
 LEXICON Posesivo 
 
-%<px1sg%>:%{í%}n%>                                           Nominales ; 
-%<px2sg%>:a%{w%}%>                                           Nominales ; 
-%<px3sg%>:%{j%}%>                                            Nominales ; 
-%<px1pl%>:q%{a%}%>                                           Nominales ; 
-@P.Poss.Pl@%<px2pl%>:@P.Poss.Pl@a%{w%}%>                     Nominales ; 
-@P.Poss.Pl@%<px3pl%>:@P.Poss.Pl@%{j%}%>                      Nominales ; 
+!El prefijo de primera persona lleva tono cuando hace diferencia entre marcador de posesión y
+!sujeto de predicado no verbal. Es decir, si en el primera ejemplo íntz’i’ ‘mi perro’ se le quita el
+!tono in tz’i’ se interpreta como ‘soy perro’, aunque el sujeto se escriba separado del predicado.
+
+                                                                         !     _ Cns       !     _ Vow  
+%<px1sg%>:%{í%}%{n%}%{w%}%>                                  Nominales ; ! in- (ín-)¹, iin | w-, in- (inw-)
+%<px2sg%>:a%{w%}%>                                           Nominales ; ! a-              | aw-
+%<px3sg%>:%{j%}%>                                            Nominales ; ! j-              | r-
+%<px1pl%>:q%{a%}%>                                           Nominales ; ! qa-             | q-
+@P.Poss.Pl@%<px2pl%>:@P.Poss.Pl@a%{w%}%>                     Nominales ; ! a-          -aq | aw-       -aq
+@P.Poss.Pl@%<px3pl%>:@P.Poss.Pl@%{j%}%>                      Nominales ; ! j-          -aq | r-        -aq
 
 LEXICON Nominales 
                                                              Sustantivos ;
@@ -51,14 +62,29 @@ LEXICON Sufijos1
 @D.Poss@:@D.Poss@                                            # ;
 @R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
 
-LEXICON N 
+LEXICON Sufijos2
+
+@R.Poss.No@:@R.Poss.No@                                      # ;
+
+LEXICON Sufijos3
+
+@D.Poss@:@D.Poss@                                            # ;
+@R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
+
+LEXICON N1
 
 %<n%>:                                                       Sufijos1 ; 
+
+LEXICON N2
+
+%<n%>:%>ij                                                   Sufijos2 ; 
+%<n%>:%>aaj                                                  Sufijos3 ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 LEXICON Sustantivos 
 
-íxim:íxim                    N ; ! "maíz" [#]
-óoj:óoj                      N ; ! "aguacate" [#]
+ichaaj:ich                   N2 ; ! "hierba" [#]
+íxim:íxim                    N1 ; ! "maíz" [#]
+óoj:óoj                      N1 ; ! "aguacate" [#]

@@ -8,6 +8,7 @@ Alphabet
   %{í%}:í %{í%}:0
   %{j%}:j %{j%}:r
   %{w%}:w %{w%}:0
+  %{n%}:n %{n%}:0
 
   %> 
 
@@ -22,3 +23,17 @@ Rules
 
 "Alternation in third person singular possession"
 %{j%}:r <=> _ %>: :Vow ; 
+
+"Alternation in second person possession"
+%{a%}:0 <=> _ %>: :Vow ;
+
+"Alternation in first person singular (I)"
+%{w%}:w <=> %{í%}: %{n%} _ %>: :Vow ;
+
+"Alternation in first person singular (II)"
+%{n%}:0 <=> _ %{w%}:w %>: :Vow ;
+
+"Alternation in first person singular (III)"
+%{í%}:0 <=> _ %{n%}:0 %{w%}:w %>: :Vow ;
+
+!@ {í}:0 {n}:0 {w}:w > i c h > a a j
