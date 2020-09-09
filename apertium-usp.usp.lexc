@@ -33,6 +33,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+                                       Miscellaneous ;
                                        Prefijos ; 
                                        Propios ; 
 @P.Poss.No@:@P.Poss.No@                Sustantivos ;
@@ -131,10 +132,25 @@ LEXICON COG3
 %<np%>%<cog%>:                                               # ;
 %<np%>%<cog%>%<pl%>:%>ʼiibʼ                                  # ;
 
+LEXICON ANTF
+
+%<np%>%<ant%>%<f%>:                                          # ;
+
+LEXICON ANTM
+
+%<np%>%<ant%>%<m%>:                                          # ;
+
+LEXICON TOP
+
+%<np%>%<top%>:                                               # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Miscellaneous
+
+ra%<dim%>:ra                 # ;
+aj%<gen%>:aj                 # ;
 
 LEXICON Sustantivos 
 
@@ -148,6 +164,7 @@ tikoʼn:tikoʼn                N1 ; ! "siembra" [#]
 ikʼlaal:ikʼlaal              N1 ; ! "hijo (de mujer)" [#]
 awaj:awaj                    N3 ; ! "animal" [#]
 ajchaak:aj%>chaak            N4 ; ! "trabajador" [aj#]
+ajbʼiix:aj%>bʼiix            N4 ; ! "cantante" [aj#]
 iyoom:iyoom                  N1 ; ! "comadrona" [#]
 bʼee:bʼee                    N1 ; ! "camino" [#]
 jal:ja%{ː%}l                 N1 ; ! "mazorca" [#]
@@ -156,6 +173,7 @@ tiʼniik:tiʼ                  N5 ; ! "carne" [#niik]
 qʼuniik:qʼu                  N5 ; ! "chamarra" [#niik]
 jiʼxeel:ji%{ː%}ʼ             N6 ; ! "yerno" [#xeel]
 alibʼxeel:alibʼ              N6 ; ! "nuera" [#xeel]
+tinmit:tinmi%{ː%}t           N1 ; ! "pueblo" [#]
 
 LEXICON Poseídos 
 
@@ -164,7 +182,23 @@ ichooch:ichooch              N7 ; ! "casa" [-#]
 
 LEXICON Propios 
 
+Chimel:Chimel                TOP ; 
+Kʼaʼntun:Kʼaʼntun            TOP ; ! ""
+Kʼotoxaq:Kʼotoxaq            TOP ; ! ""
+Maqaljaʼ:Maqaljaʼ            TOP ; ! ""
+Bʼoobʼlaj:Bʼoobʼlaj          TOP ; ! ""
+Kʼisachálik:Kʼisachálik      TOP ; ! ""
+Najtilja:Najtilja            TOP ; ! ""
+Chʼipaq:Chʼipaq              TOP ; ! ""
+Kʼixpaaj:Kʼixpaaj            TOP ; ! ""
+
 Koʼr:Koʼr                    COG1 ; 
 Tum:Tum                      COG2 ;
 Aware:Aware                  COG3 ; 
+
+Treʼs:Treʼs                  ANTF ; ! "Teresa" [#]
+Terees:Terees                ANTF ; ! "Teresa" [#]
+Tz’únun:Tz’únun              ANTF ; ! "" [#]
+
+Liip:Liip                    ANTM ; ! "Felipe" [#]
 
