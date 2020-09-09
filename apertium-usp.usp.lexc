@@ -281,6 +281,8 @@ man:maq                      DET2 ; ! "el"
 yaj:yaj                      DET1 ; ! "el"
 yaj:yaq                      DET2 ; ! "el"
 
+jun:jun                      DET1 ; ! "un"
+
 LEXICON Numerales 
 
 juun:juun                    NUM1 ; ! "uno"
@@ -314,6 +316,19 @@ qʼunxeel:qʼun                N6 ; ! "hermano menor" [#xeel]
 
 tinmit:tinmi%{ː%}t           N1 ; ! "pueblo" [#]
 yajeel:yajeel                N1 ; ! "enfermo" [#eel] ! FIXME: comprobar poss = jyaj ?
+kʼeex:kʼeex                  N1 ; ! "trueque" [#]
+kʼaat:kʼaat                  N1 ; ! "red" [#] ! FIXME: comprobar categoria
+luwar:luwar                  N1 ; ! "lugar" [#]
+luwar:luwr                   N1 ; ! "lugar" [#] ! Use/Spell ! Src/Covid
+chubʼ:chubʼ                  N1 ; ! "saliba" [#]
+atzʼaam:atzʼaam              N1 ; ! "sal" [#]
+atzʼaam:atzaam               N1 ; ! "sal" [#]  ! Use/Spell ! Src/Covid
+siikʼ:siikʼ                  N1 ; ! "cigarro" [#]
+siikʼ:siik                   N1 ; ! "cigarro" [#] ! Use/Spell ! Src/Covid
+chʼiichʼ:chʼiichʼ            N1 ; ! "vehículo" [#]
+chʼiichʼ:chʼiich             N1 ; ! "vehículo" [#] ! Use/Spell ! Src/Covid
+tataʼ:tataʼ                  N1 ; ! "señor" [#]
+
 
 LEXICON Poseídos 
 
@@ -333,6 +348,7 @@ xúkut:xúkut                  REL ; ! "al lado de"
 ikʼil:ikʼil                  REL ; ! "?"
 chiʼ:chiʼ                    REL ; ! "orilla de"
 iibʼ:iibʼ                    REL ; ! "" 
+wiʼl:wiʼl                    REL ; ! ""
 
 ! FIXME: Sólo p3
 !peech
