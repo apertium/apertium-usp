@@ -8,7 +8,10 @@ LIST BOS = >>> ;
 LIST A = adj ;
 LIST N = n ;
 LIST Prop = np ;
+LIST Num = num ;
 LIST Clf = clf ;
+LIST Det = det ;
+LIST Adv = adv ;
 
 LIST Relat = rel ; 
 

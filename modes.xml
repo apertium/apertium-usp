@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <mode name="usp-morph" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="usp.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="usp-phone" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w -N 1">
+        <file name="usp.autophon.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="usp-segmenter" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc">
+        <file name="usp.autoseg.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="usp-disam" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="usp.automorf.hfst"/>
+      </program>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="usp.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="usp-tagger" install="yes">
+    <pipeline>
+      <program name="sed &quot;s/['’]/ʼ/g&quot;"/>
+      <program name="hfst-proc -w">
+        <file name="usp.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -1 -n">
+        <file name="usp.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+</modes>
