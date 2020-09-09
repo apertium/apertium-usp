@@ -4,8 +4,9 @@ Multichar_Symbols
 %<n%>                                  ! Sustantivo
 %<np%>                                 ! Nombre propio
 %<det%>                                ! Determinante
-%<adj%>                                ! Adjetivos 
-
+%<adj%>                                ! Adjetivo
+%<num%>                                ! Numeral
+%<adv%>                                ! Adverbio
 
 %<cog%>                                ! Cognomen
 
@@ -39,10 +40,12 @@ LEXICON Root
 
                                        Miscellaneous ;
                                        Prefijos ; 
+@P.Poss.No@:@P.Poss.No@                Sustantivos ;
                                        Propios ; 
+                                       Numerales ; 
                                        Determinantes ; 
                                        Adjetivos ; 
-@P.Poss.No@:@P.Poss.No@                Sustantivos ;
+                                       Adverbios ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -128,6 +131,14 @@ LEXICON A
 %<adj%>:                                                     # ; 
 %<adj%>%<ints%>:%>laj                                        # ; 
 
+LEXICON NUM1
+
+%<num%>:                                                     # ; 
+
+LEXICON NUM2
+
+%<num%>:                                                     # ; 
+
 LEXICON COG1
 
 %<np%>%<cog%>:                                               # ;
@@ -155,9 +166,18 @@ LEXICON TOP
 
 %<np%>%<top%>:                                               # ;
 
-LEXICON DET
+LEXICON ADV
+
+%<adv%>:                                                     # ; 
+
+LEXICON DET1
 
 %<det%>:                                                     # ; 
+
+LEXICON DET2
+
+%<det%>%<pl%>:                                               # ; 
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -166,11 +186,25 @@ LEXICON Miscellaneous
 ra%<dim%>:ra                 # ;
 aj%<gen%>:aj                 # ;
 no%<neg%>:no                 # ;
-ta’%<neg%>:ta’               # ;
+taʼ%<neg%>:taʼ               # ;
+
+qaaj%<clf%>%<m%>:qaaj        # ;
+chuch%<clf%>%<f%>:chuch      # ;
 
 LEXICON Determinantes 
 
-li:li                        DET ; ! "el"
+li:li                        DET1 ; ! "el"
+ri:ri                        DET1 ; ! "el"
+man:man                      DET1 ; ! "el"
+man:maq                      DET2 ; ! "el"
+yaj:yaj                      DET1 ; ! "el"
+yaj:yaq                      DET2 ; ! "el"
+
+LEXICON Numerales 
+
+juun:juun                    NUM1 ; ! "uno"
+kiibʼ:kiibʼ                  NUM2 ; ! "dos"
+joobʼ:joobʼ                  NUM2 ; ! "cinco"
 
 LEXICON Sustantivos 
 
@@ -247,3 +281,8 @@ maakʼ:maakʼ                  A ; ! "pequeño"
 
 bʼot:bʼot                    A ; ! "blanco" < algodón
 pool:pool                    A ; ! "blanco" < flor
+
+LEXICON Adverbios 
+
+chweʼq:chweʼq                ADV ; ! "mañana"
+íwir:íwir                    ADV ; ! "ayer"
