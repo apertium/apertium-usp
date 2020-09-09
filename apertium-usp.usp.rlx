@@ -1,0 +1,51 @@
+DELIMITERS = "<.>" "<!>" "<;>" "<?>" ;
+
+SUBREADINGS = LTR ;
+
+LIST EOS = <<< ;
+LIST BOS = >>> ; 
+
+LIST A = adj ;
+LIST N = n ;
+LIST Prop = np ;
+LIST Clf = clf ;
+
+LIST Relat = rel ; 
+
+LIST Poss = px1sg px2sg px3sg px1pl px2pl px3pl ;
+
+LIST Impf = impf ; 
+LIST Perf = perf ;
+
+LIST IV = iv ;
+LIST TV = tv ;
+
+LIST Pl = pl ; 
+
+LIST Sg1S = s_sg1 ;
+LIST Sg2S = s_sg2 ;
+LIST Sg3S = s_sg3 ;
+LIST Pl1S = s_pl1 ;
+LIST Pl2S = s_pl2 ;
+LIST Pl3S = s_pl3 ;
+
+LIST Sg1O = o_sg1 ;
+LIST Sg2O = o_sg2 ;
+LIST Sg3O = o_sg3 ;
+LIST Pl1O = o_pl1 ;
+LIST Pl2O = o_pl2 ;
+LIST Pl3O = o_pl3 ;
+
+SET NOMINAL = N | Prop ;
+
+SET FIN = Impf | Perf ;
+
+SET NP-INTERNAL = Det | N | A | Adv | Num ;
+
+SET AGR-S = Sg1S | Sg2S | Sg3S | Pl1S | Pl2S | Pl3S ;
+
+SET AGR-O = Sg1O | Sg2O | Sg3O | Pl1O | Pl2O | Pl3O ;
+
+SECTION
+
+SELECT Clf IF (1C Prop) ;
