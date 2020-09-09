@@ -2,7 +2,10 @@
 Multichar_Symbols
 
 %<n%>                                  ! Sustantivo
+%<np%>                                 ! Nombre propio
 
+
+%<cog%>                                ! Cognomen
 
 %<px1sg%>                              ! Posesivo de 1ra persona singular
 %<px2sg%>
@@ -11,12 +14,12 @@ Multichar_Symbols
 %<px2pl%>
 %<px3pl%>
 
-%{w%}
-%{n%}
-%{j%}
-%{í%}
-%{a%}
-%{ː%}
+%{w%}                                  ! w / 0
+%{n%}                                  ! n / w 
+%{j%}                                  ! j / r 
+%{í%}                                  ! í / 0 
+%{a%}                                  ! a / 0
+%{ː%}                                  ! a / e / i / o / u
 
 @D.Poss@                               !
 @P.Poss.No@                            !
