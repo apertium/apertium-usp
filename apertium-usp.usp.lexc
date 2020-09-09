@@ -7,6 +7,7 @@ Multichar_Symbols
 %<adj%>                                ! Adjetivo
 %<num%>                                ! Numeral
 %<adv%>                                ! Adverbio
+%<pr%>                                 ! Preposición
 
 %<cog%>                                ! Cognomen
 
@@ -39,6 +40,7 @@ Multichar_Symbols
 LEXICON Root
 
                                        Miscellaneous ;
+                                       Preposiciones ;
                                        Prefijos ; 
 @P.Poss.No@:@P.Poss.No@                Sustantivos ;
                                        Propios ; 
@@ -73,6 +75,7 @@ LEXICON Posesivo
 LEXICON Nominales 
                                                              Sustantivos ;
                                                              Poseídos ;
+                                                             Relacionales ;
 
 LEXICON Aspecto 
 
@@ -172,6 +175,10 @@ LEXICON N7
 
 %<n%>:                                                       Sufijos3 ; 
 
+LEXICON REL
+
+%<n%>%<rel%>:                                                Sufijos3 ; 
+
 LEXICON A
 
 %<adj%>:                                                     # ; 
@@ -250,6 +257,17 @@ taq%<pl%>:taq                # ;
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
 
+LEXICON Preposiciones 
+
+chi%<pr%>:chi                # ;
+li%<pr%>:li                  # ;
+la%<pr%>:la                  # ;
+pu%<pr%>:pu                  # ;
+
+! Contracciones 
+
+chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" 
+
 LEXICON Pronombres
 
 neen:neen                    PRON2 ; ! "qué"
@@ -295,11 +313,30 @@ qajawxeel:qajaw              N6 ; ! "dueño" [#xeel] ! FIXME: qa- poss. ?
 qʼunxeel:qʼun                N6 ; ! "hermano menor" [#xeel]
 
 tinmit:tinmi%{ː%}t           N1 ; ! "pueblo" [#]
+yajeel:yajeel                N1 ; ! "enfermo" [#eel] ! FIXME: comprobar poss = jyaj ?
 
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
 ichooch:ichooch              N7 ; ! "casa" [-#]
+
+LEXICON Relacionales
+
+ech:e%{ː%}ch                 REL ; ! "de (pertenencia)"
+wach:wach                    REL ; ! "enfrente de"
+iij:iij                      REL ; ! "atrás de"
+elaaj:elaaj                  REL ; ! "debajo de"
+qul:qul                      REL ; ! "cuello"
+bʼaa:bʼaa                    REL ; ! "sobre de"
+achaq:achaq                  REL ; ! "?"
+xúkut:xúkut                  REL ; ! "al lado de"
+ikʼil:ikʼil                  REL ; ! "?"
+chiʼ:chiʼ                    REL ; ! "orilla de"
+iibʼ:iibʼ                    REL ; ! "" 
+
+! FIXME: Sólo p3
+!peech
+!laʼ
 
 LEXICON Propios 
 
@@ -344,6 +381,9 @@ maakʼ:maakʼ                  A ; ! "pequeño"
 
 bʼot:bʼot                    A ; ! "blanco" < algodón
 pool:pool                    A ; ! "blanco" < flor
+
+aakʼ:aakʼ                    A ; ! "nuevo" [#]
+looqʼ:looqʼ                  A ; ! "querido" [#]
 
 LEXICON Adverbios 
 
