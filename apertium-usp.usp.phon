@@ -6,42 +6,117 @@ Multichar_Symbols
 
 LEXICON Root
 
+Irregular ;
+
 Digraphs ;
+
+:ʔ Vow ; 
 
 LEXICON Loop 
 
         Digraphs "weight: 0.0" ;
 k:kʰ    # "weight: 0.0" ; 
 t:tʰ    # "weight: 0.0" ; 
+p:pʰ    # "weight: 0.0" ; ! Fonema /p/ al final:
 q:qʰ    # "weight: 0.0" ; 
         # ;
+
+LEXICON Kʼ
+
+kʼ:kʼ  Low ; 
+kʼ:kʲʼ High ; 
+kʼ:kʰʼ Cns ; 
 
 LEXICON Digraphs
 
 bʼ:b̥ Loop  "weight: 0.0" ;
+
+! Ejectives 
 tʼ:tʼ Loop  "weight: 0.0" ;
 qʼ:qʼ Loop  "weight: 0.0" ;
-kʼ:kʼ Loop  "weight: 0.0" ; ! TODO: palatalisation
+      Kʼ  "weight: 0.0" ;
+
 ch:tʃ Loop  "weight: 0.0" ;
 tz:ts Loop  "weight: 0.0" ;
       Graphs  "weight: 1.0" ;
 
-LEXICON Graphs 
+LEXICON Vow 
+
+High ;
+Low ; 
+
+LEXICON High
+
+e:e  Loop ;
+i:i  Loop ;
+ee:eː  Loop ;
+ii:iː  Loop ;
+
+LEXICON Low 
+
+a:a  Loop ;
+o:o  Loop ;
+u:u  Loop ;
+
+aa:aː  Loop ;
+oo:oː  Loop ;
+uu:uː  Loop ;
+
+LEXICON Cns 
+
+h:h  Loop ;
+j:x  Loop ;
+     K ;
+l:l  Loop ;
 m:m  Loop ;
 n:n  Loop ;
-p:p  Loop ;
-t:t  Loop ; ! TODO: aspiration
-x:ʃ  Loop ;
+     P ;
+     Q ;
 r:r  Loop ;
-h:h  Loop ;
-l:l  Loop ;
-y:j  Loop ;
-j:x  Loop ;
-w:w  Loop ;
-l:l  Loop ;
 s:s  Loop ;
-g:g  Loop ;
-k:k  Loop ; ! TODO: aspiration
+     T ;
+w:w  Loop ;
+x:ʃ  Loop ;
+y:j  Loop ;
+ʼ:ʔ  Loop ; 
+
+LEXICON K
+
+k:k  Low ; 
+k:kʲ High ; 
+k:kʰ Cns ; 
+
+LEXICON P
+
+p:p  Vow ; 
+p:pʰ Cns ; 
+
+LEXICON Q
+
+q:q  Vow ; 
+q:qʰ Cns ; 
+
+LEXICON T
+
+t:t  Vow ; 
+t:tʰ Cns ; 
+
+LEXICON Graphs 
+
+h:h  Loop ;
+j:x  Loop ;
+     K ;
+l:l  Loop ;
+m:m  Loop ;
+n:n  Loop ;
+     P ;
+     Q ;
+r:r  Loop ;
+s:s  Loop ;
+     T ; 
+w:w  Loop ;
+x:ʃ  Loop ;
+y:j  Loop ;
 ʼ:ʔ  Loop ; 
 
 a:a  Loop ;
@@ -58,3 +133,9 @@ uu:uː  Loop ;
 
      Loop ;
 
+LEXICON Irregular
+
+ikej:ʔikex # "weight: 0.0" ;
+ekem:ʔekem # "weight: 0.0" ;
+kop:kʲopʰ # "weight: 0.0" ; 
+kow:kʲow # "weight: 0.0" ;
