@@ -240,6 +240,11 @@ LEXICON COG3
 %<np%>%<cog%>:                                               # ;
 %<np%>%<cog%>%<pl%>:%>ʼiibʼ                                  # ;
 
+LEXICON COG4
+
+%<np%>%<cog%>:                                               # ;
+! TODO: Añadir plural
+
 LEXICON ANTF
 
 %<np%>%<ant%>%<f%>:                                          # ;
@@ -414,6 +419,34 @@ pwaq:pwaq                    N1 ; ! "dinero" [#]
 wuuj:wuuj                    N1 ; ! "libro" [#]
 wuuj:wuj                     N1 ; ! "libro" [#] ! Use/Spell ! Src/Shoebox
 
+aaq:aaq                      N1 ; ! "cerdo" [#]
+abʼaj:abʼaj                  N1 ; ! "piedra" [#]
+abʼiix:abʼiix                N1 ; ! "milpa" [#]
+bʼa:bʼa                      N1 ; ! "cabeza" [#]
+chaak:chaak                  N1 ; ! "trabajo" [#]
+chiʼ:chiʼ                    N1 ; ! "boca" [#]
+chʼool:chʼool                N1 ; ! "estomago" [#]
+ekʼ:ekʼ                      N1 ; ! "pollo" [#]
+jaʼ:jaʼ                      N1 ; ! "agua" [#]
+kaʼn:kaʼn                    N1 ; ! "animal" [#]
+kwaʼy:kwaʼy                  N1 ; ! "caballo" [#]
+laq:laq                      N1 ; ! "escudilla" [#]
+mex:mex                      N1 ; ! "izquierda" [#]
+neʼ:neʼ                      N1 ; ! "nene" [#]
+pootʼ:pootʼ                  N1 ; ! "güipil" [#]
+qeleen:qeleen                N1 ; ! "cosa" [#]
+qʼabʼ:qʼabʼ                  N1 ; ! "mano" [#]
+raʼl:aʼl                     N1 ; ! "jugo" [r#]
+siiʼ:siiʼ                    N1 ; ! "leña" [#]
+tziij:tziij                  N1 ; ! "palabra" [#]
+tzʼolom:tzʼolom              N1 ; ! "tabla" [#]
+uleew:uleew                  N1 ; ! "hígado" [#]
+wakix:wakix                  N1 ; ! "vaca.toro" [#]
+witz:witz                    N1 ; ! "cerro" [#]
+woron:woron                  N1 ; ! "sacate" [#]
+xajabʼ:xajabʼ                N1 ; ! "zapato" [#]
+xaq:xaq                      N1 ; ! "sarro" [#]
+
 
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
@@ -430,6 +463,8 @@ LEXICON Poseídos
 
 iij:iij                      N7 ; ! "espalda" [-#]
 chooch:%{y%}chooch           N7 ; ! "casa" [-#]
+bʼiij:bʼiij                  N7 ; ! "nombre" [-#]
+bʼiij:bʼij                   N7 ; ! "nombre" [-#] ! Use/Spell ! Src/Shoebox
 
 LEXICON Relacionales
 
@@ -467,9 +502,55 @@ Najtilja:Najtilja            TOP ; ! ""
 Chʼipaq:Chʼipaq              TOP ; ! ""
 Kʼixpaaj:Kʼixpaaj            TOP ; ! ""
 
+Chʼolaʼ:Chʼolaʼ              TOP ; ! "Cholá" [#]
+Najtijaa:Najtijaa            TOP ; ! "?" [#]
+Kʼisachaal:Kʼisachaal        TOP ; ! "Quisachal" [#]
+Juʼjoloom:Juʼjoloom          TOP ; ! "?" [#]
+Jumuq:Jumuq                  TOP ; ! "Jumuc" [#]
+Chʼanuuj:Chʼanuuj            TOP ; ! "Chanuj" [#]
+Chʼámaqʼ:Chʼámaqʼ            TOP ; ! "Chamác" [#]
+Chʼaamqʼ:Chʼaamqʼ            TOP ; ! "Chamác" [#]
+Chʼaaj:Chʼaaj                TOP ; ! "Chaj" [#]
+Choʼkoox:Choʼkoox            TOP ; ! "?" [#]
+Chimeel:Chimeel              TOP ; ! "Chimel" [#]
+
+
 Koʼr:Koʼr                    COG1 ; 
 Tum:Tum                      COG2 ;
 Aware:Aware                  COG3 ; 
+
+Tok:Tok                      COG4 ; ! "Toc" [#]
+Nuul:Nuul                    COG4 ; ! "Pinula" [#]
+Koj:Koj                      COG4 ; ! "Coj" [#]
+Chʼiit:Chʼiit                COG4 ; ! "Chitop" [#]
+Xooy:Xooy                    COG4 ; ! "apellido" [#]
+Rawix:Rawix                  COG4 ; ! "Ragüix" [#]
+Puu:Puu                      COG4 ; ! "Pu" [#]
+Pool:Pool                    COG4 ; ! "Pol" [#]
+Pakay:Pacay                  COG4 ; ! "Pacay" [Pakay]
+Paar:Paar                    COG4 ; ! "Par" [#]
+Menchuʼ:Menchuʼ              COG4 ; ! "Menchu" [#]
+Lux:Lux                      COG4 ; ! "Lux" [#]
+Kʼibʼ:Kʼibʼ                  COG4 ; ! "Quip" [#]
+Kaant:Kaant                  COG4 ; ! "Canto" [#]
+Jaax:Jaax                    COG4 ; ! "Jax" [#]
+Ixkotoʼy:Ixkotoʼy            COG4 ; ! "Ixcotoyac" [#]
+Ixchoobʼ:Ixchoobʼ            COG4 ; ! "Ixchop" [#]
+Imul:Imul                    COG4 ; ! "Imul" [#]
+Ikʼal:Ikʼal                  COG4 ; ! "Ical" [#]
+Ibʼooy:Ibʼooy                COG4 ; ! "Iboy" [#]
+Estyuʼl:Estyuʼl              COG4 ; ! "Estayul" [#]
+Chʼiik:Chʼiik                COG4 ; ! "Chic" [#]
+Chʼaʼchʼ:Chʼaʼchʼ            COG4 ; ! "Chach" [#]
+Chokooj:Chokooj              COG4 ; ! "Chocoj" [#]
+Chitop:Chitop                COG4 ; ! "Chitop" [#]
+Chaaj:Chaaj                  COG4 ; ! "Chaj" [#]
+Ajpiʼ:Ajpiʼ                  COG4 ; ! "Ajpi" [#]
+Ajiyataas:Ajiyataas          COG4 ; ! "Ajiatas" [#]
+Ajchiku:Ajchiku              COG4 ; ! "Ajchicu" [#]
+Ajaneel:Ajaneel              COG4 ; ! "Ajanel" [#]
+Aaj:Aaj                      COG4 ; ! "Aj" [#]
+
 
 Treʼs:Treʼs                  ANTF ; ! "Teresa" [#]
 Terees:Terees                ANTF ; ! "Teresa" [#]
@@ -502,6 +583,7 @@ pool:pool                    A ; ! "blanco" < flor
 aakʼ:aakʼ                    A ; ! "nuevo" [#]
 looqʼ:looqʼ                  A ; ! "querido" [#]
 qus:qus                      A ; ! "bueno" [#]
+jechʼ:jechʼ                  A ; ! "torcido"
 
 LEXICON Adverbios 
 
