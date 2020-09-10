@@ -265,8 +265,10 @@ tijin%<aux%>:tijin           # ;
 tijin%<aux%>:tijiin          # ; ! Src/Covid
 
 sebʼlaj%<ints%>:sebʼlaj      # ;
+pok%<ints%>:pok              # ;
 
 taq%<pl%>:taq                # ;
+chaq%<pl%>:chaq              # ;
 
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
@@ -280,6 +282,7 @@ pu%<pr%>:pu                  # ;
 
 ! Contracciones 
 
+chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" 
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" 
 
 LEXICON Pronombres
@@ -301,9 +304,12 @@ jun:jun                      DET1 ; ! "un"
 
 LEXICON Numerales 
 
-juun:juun                    NUM1 ; ! "uno"
-kiibʼ:kiibʼ                  NUM2 ; ! "dos"
-joobʼ:joobʼ                  NUM2 ; ! "cinco"
+juun:juun                    NUM1 ; ! "uno" [#]
+kiibʼ:kiibʼ                  NUM2 ; ! "dos" [#]
+joobʼ:joobʼ                  NUM2 ; ! "cinco" [#]
+
+wunaq:wunaq                  NUM2 ; ! "veintena" [#]
+kawunaq:kawunaq              NUM2 ; ! "cuarenta" [#]
 
 LEXICON Sustantivos 
 
@@ -349,8 +355,16 @@ niʼj:niʼj                    N1 ; ! "lagartija" [#]
 yaaj:yaaj                    N1 ; ! "enfermo" [#]
 usum:usum                    N1 ; ! "mosquito" [#]
 teew:teew                    N1 ; ! "aire" [#]
+wunaq:wunaq                  N1 ; ! "hombre" [#]
+junabʼ:junabʼ                N1 ; ! "año" [#]
+ánim¹:anim                   N1 ; ! "corazón" [#]
+ánim²:ánim                   N1 ; ! "mujer" [#]
+ákʼel:ákʼel                  N1 ; ! "niño" [#]
+ékʼel:ékʼel                  N1 ; ! "niño" [#]
 
-kristyan:kristyan            N1 ; ! "cristiano" [#]
+
+kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
+kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
 
 kʼutubʼ:kʼutubʼ              N8 ; ! "medidor" [#ubʼ]
 
@@ -372,6 +386,7 @@ xúkut:xúkut                  REL ; ! "al lado de"
 ikʼil:ikʼil                  REL ; ! "?"
 chiʼ:chiʼ                    REL ; ! "orilla de"
 iibʼ:iibʼ                    REL ; ! "" 
+iibʼ:ibʼ                     REL ; ! ""  ! Use/Spell ! Src/Shoebox
 wiʼl:wiʼl                    REL ; ! ""
 
 ! FIXME: Sólo p3
