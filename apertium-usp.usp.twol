@@ -7,6 +7,7 @@ Alphabet
   %{a%}:a %{a%}:0
   %{í%}:í %{í%}:0
   %{j%}:j %{j%}:r
+  %{i%}:i %{i%}:0
   %{w%}:w %{w%}:0
   %{n%}:n %{n%}:w
   %{ː%}:0
@@ -44,4 +45,7 @@ Rules
 "Stem vowel lengthening in possession"
 %{ː%}:Vx <=> %>: Cns+ Vx _ Cns+ ; 
           where Vx in ( a e i o u ) ;
+
+"Alternation in imperfective t(i)-"
+%{i%}:0 <=> _ %>: [ ArchiVow: | :Vow ] ;
 

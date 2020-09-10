@@ -13,6 +13,9 @@ Multichar_Symbols
 
 %<ints%>                               ! Intensificador
 
+%<perf%>                               ! Perfectivo (Completivo)
+%<impf%>                               ! Imperfectivo (Incompletivo)
+
 %<px1sg%>                              ! Posesivo de 1ra persona singular
 %<px2sg%>
 %<px3sg%>
@@ -27,6 +30,7 @@ Multichar_Symbols
 %{a%}                                  ! a / 0
 %{ː%}                                  ! a / e / i / o / u
 %{y%}                                  ! 0
+%{i%}                                  ! i / 0
 
 @D.Poss@                               !
 @P.Poss.No@                            !
@@ -83,6 +87,10 @@ LEXICON Aspecto
 
 %<perf%>:x%>                                                 A-IV ; 
 %<perf%>:x%>                                                 A-TV ; 
+%<impf%>:t%{i%}%>                                            A-IV-3 ;    ! ti-, t-
+%<impf%>:                                                    A-IV-12 ;   ! ø-
+%<impf%>:t%{i%}%>                                            A-TV-3 ; 
+%<impf%>:                                                    A-TV-12 ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -110,23 +118,37 @@ LEXICON Sufijos3
 @D.Poss@:@D.Poss@                                            # ;
 @R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
 
-LEXICON A-IV 
+LEXICON A-IV-12
 
 %<s_sg1%>:in%>                                               IV ;
 %<s_sg2%>:at%>                                               IV ;
-%<s_sg3%>:                                                   IV ;
-%<s_sg1%>:oj%>                                               IV ;
-%<s_sg2%>:at%>                                               IV ;
-%<s_sg3%>:                                                   IV ;
+%<s_pl1%>:oj%>                                               IV ;
+%<s_pl2%>:at%>                                               IV ;
 
-LEXICON A-TV 
+LEXICON A-IV-3 
+
+%<s_sg3%>:                                                   IV ;
+%<s_pl3%>:                                                   IV ;
+
+LEXICON A-IV
+
+                                                             A-IV-12 ;
+                                                             A-IV-3 ;
+LEXICON A-TV-12
 
 %<o_sg1%>:in%>                                               B-TV ;
 %<o_sg2%>:at%>                                               B-TV ;
-%<o_sg3%>:                                                   B-TV ;
 %<o_pl1%>:oj%>                                               B-TV ;
 %<o_pl2%>:at%>                                               B-TV ;
+
+LEXICON A-TV-3 
+
+%<o_sg3%>:                                                   B-TV ;
 %<o_pl3%>:                                                   B-TV ;
+
+LEXICON A-TV
+                                                             A-TV-12 ;
+                                                             A-IV-3 ;
 
 LEXICON B-TV
 
@@ -288,10 +310,16 @@ LEXICON PRON3
 LEXICON Miscellaneous
 
 ra%<dim%>:ra                 # ;
+tra%<dim%>:tra               # ;
 aj%<gen%>:aj                 # ;
 no%<neg%>:no                 # ;
+taʼn%<neg%>:taʼn             # ;
 taʼ%<neg%>:taʼ               # ;
+ta%<neg%>:ta                 # ;
 kitaʼ%<neg%>:kitaʼ           # ;
+ma%<neg%>:ma                 # ;
+ni%<neg%>:ni                 # ;
+
 jinon%<ij%>:jinon            # ; 
 
 tijin%<aux%>:tijin           # ;
@@ -299,21 +327,36 @@ tijin%<aux%>:tijiin          # ; ! Src/Covid
 
 sebʼlaj%<ints%>:sebʼlaj      # ;
 pok%<ints%>:pok              # ;
+laj%<ints%>:laj              # ;
+
 
 taq%<pl%>:taq                # ;
 chaq%<pl%>:chaq              # ;
+kʼis%<pl%>:kʼis              # ;
 
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
 
-kwando%<cnjsub%>:kwando      # ;
+kwando%<cnjsub%>:kwando      # ; ! "cuando"
+we%<cnjsub%>:we              # ; ! "si"
+i%<cnjcoo%>:i                # ; ! "y"
+per%<cnjcoo%>:per            # ; ! "pero"
+o%<cnjcoo%>:o                # ; ! "o"
+jwiʼl%<cnjsub%>:jwiʼl        # ; ! "porque"
+
+wi%<part%>:wi                # ; ! "PART" [#]
+wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
+kʼu%<part%>:kʼu              # ; ! "PART" [#]
+
 
 LEXICON Preposiciones 
 
 chi%<pr%>:chi                # ;
 li%<pr%>:li                  # ;
 la%<pr%>:la                  # ;
+laʼ%<pr%>:laʼ                # ;
 pu%<pr%>:pu                  # ;
+
 
 ! Contracciones 
 
@@ -326,6 +369,20 @@ neen:neen                    PRON2 ; ! "qué"
 
 riʼ:riʼ                      PRON3 ; ! "eso es" [#]
 li:li                        PRON3 ; ! "" [#]
+
+                             Pers ;
+
+LEXICON Pers 
+
+iin%<prn%>%<pers%>%<p1%>%<sg%>:iin # ;
+aat%<prn%>%<pers%>%<p2%>%<sg%>:aat # ;
+re%<prn%>%<pers%>%<p3%>%<sg%>:re # ;
+ooj%<prn%>%<pers%>%<p1%>%<pl%>:ooj # ;
+rechaq%<prn%>%<pers%>%<p3%>%<pl%>:rechaq # ;
+ataq%<prn%>%<pers%>%<p2%>%<pl%>:ataq # ;
+retaq%<prn%>%<pers%>%<p3%>%<pl%>:retaq # ;
+
+
 
 LEXICON Determinantes 
 
@@ -343,6 +400,7 @@ LEXICON Numerales
 juun:juun                    NUM1 ; ! "uno" [#]
 kiibʼ:kiibʼ                  NUM2 ; ! "dos" [#]
 joobʼ:joobʼ                  NUM2 ; ! "cinco" [#]
+lajuuj:lajuuj                NUM2 ; ! "diez" [#]
 
 wunaq:wunaq                  NUM2 ; ! "veintena" [#]
 kawunaq:kawunaq              NUM2 ; ! "cuarenta" [#]
@@ -447,6 +505,69 @@ woron:woron                  N1 ; ! "sacate" [#]
 xajabʼ:xajabʼ                N1 ; ! "zapato" [#]
 xaq:xaq                      N1 ; ! "sarro" [#]
 
+chikech:chikech              N1 ; ! "canasto" [#]
+chikʼokʼ:chikʼokʼ            N1 ; ! "tostada" [#]
+chʼiim:chʼiim                N1 ; ! "güisquil" [#]
+iik:iik                      N1 ; ! "chile" [#]
+imul:imul                    N1 ; ! "conejo" [#]
+joʼchʼ:joʼchʼ                N1 ; ! "atol.masa" [#]
+jul:jul                      N1 ; ! "hoyo" [#]
+kaabʼ:kaabʼ                  N1 ; ! "dulce, miel, panela" [#]
+kʼim:kʼim                    N1 ; ! "paja" [#]
+pech:pech                    N1 ; ! "compañero" [#]
+qul:qul                      N1 ; ! "voz" [#]
+qʼabʼreel:qʼabʼreel          N1 ; ! "bolo" [#]
+qʼooqʼ:qʼooqʼ                N1 ; ! "chilacayote" [#]
+qʼoor:qʼoor                  N1 ; ! "masa de maíz" [#]
+sipoʼl:sipoʼl                N1 ; ! "hinchazón" [#]
+traas:traas                  N1 ; ! "durazno" [#]
+tuul:tuul                    N1 ; ! "banano" [#]
+tzi:tzi                      N1 ; ! "nixtamal" [#]
+xaan:xaan                    N1 ; ! "adobe" [#]
+suutzʼ:suutzʼ                N1 ; ! "nube" [#]
+kʼexkʼoliil:kʼexkʼoliil      N1 ; ! "dolor" [#]
+
+xiil:xiil                    N1 ; ! "silla" [#]
+pipi:pipi                    N1 ; ! "gallito arbórea" [#]
+moor:moor                    N1 ; ! "machete" [#]
+mees:mees                    N1 ; ! "basura" [#]
+kʼuch:kʼuch                  N1 ; ! "zopilote" [#]
+kʼotobʼ:kʼotobʼ              N1 ; ! "poza" [#]
+kʼooy:kʼooy                  N1 ; ! "mico" [#]
+juul:juul                    N1 ; ! "hoyo" [#]
+jaabʼ:jaabʼ                  N1 ; ! "lluvia" [#]
+chʼoʼj:chʼoʼj                N1 ; ! "pelea" [#]
+chaaj:chaaj                  N1 ; ! "ceniza" [#]
+bʼaaq:bʼaaq                  N1 ; ! "hueso" [#]
+bʼaa:bʼaa                    N1 ; ! "taltuza" [#]
+
+wa:wa                        N1 ; ! "tortilla" [#]
+tzam:tzam                    N1 ; ! "nariz" [#]
+toqʼobʼ:toqʼobʼ              N1 ; ! "favor" [#]
+tiitʼ:tiitʼ                  N1 ; ! "abuela" [#]
+qʼiibʼ:qʼiibʼ                N1 ; ! "cántaro" [#]
+poop:poop                    N1 ; ! "petate" [#]
+paar:paar                    N1 ; ! "zorro" [#]
+noʼj:noʼj                    N1 ; ! "conocimiento" [#]
+mop:mop                      N1 ; ! "coyol" [#]
+
+maqʼnaʼ:maqʼnaʼ              N1 ; ! "agua caliente" [#]
+lool:lool                    N1 ; ! "grillo" [#]
+kʼux:kʼux                    N1 ; ! "elote" [#]
+kʼisis:kʼisis                N1 ; ! "ciprés" [#]
+kirtyaan:kirtyaan            N1 ; ! "persona" [#]
+kapee:kapee                  N1 ; ! "cafe" [#]
+joochʼ:joochʼ                N1 ; ! "atol" [#]
+ixpaqar:ixpaqar              N1 ; ! "sapo" [#]
+eekʼ:eekʼ                    N1 ; ! "pie de gallo" [#]
+
+ee:ee                        N1 ; ! "diente" [#]
+chʼim:chʼim                  N1 ; ! "güisquil" [#]
+bʼolaʼj:bʼolaʼj              N1 ; ! "tun, trozos" [#]
+bʼaatzʼ:bʼaatzʼ              N1 ; ! "saraguate" [#]
+bʼaatzʼ:bʼaatzʼ              N1 ; ! "hilo" [#]
+
+qʼaqʼaal:qʼaqʼaal            N1 ; ! "temperatura" [#]
 
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
@@ -558,6 +679,12 @@ Tzʼúnun:Tzʼúnun              ANTF ; ! "" [#]
 
 Liip:Liip                    ANTM ; ! "Felipe" [#]
 
+Liin:Liin                    ANTF ; ! "Catarina" [#]
+Paal:Paal                    ANTM ; ! "Gaspar" [#]
+Leen:Leen                    ANTF ; ! "Elena" [#]
+Laʼs:Laʼs                    ANTM ; ! "Francisco" [#]
+
+
 LEXICON Adjetivos 
 
 saq:saq                      A ; ! "blanco"
@@ -584,6 +711,18 @@ aakʼ:aakʼ                    A ; ! "nuevo" [#]
 looqʼ:looqʼ                  A ; ! "querido" [#]
 qus:qus                      A ; ! "bueno" [#]
 jechʼ:jechʼ                  A ; ! "torcido"
+kʼis:kʼis                    A ; ! "ahumado" [#]
+kʼojol:kʼojol                A ; ! "joven" [#]
+loqʼlaj:loqʼlaj              A ; ! "santo" [#]
+kʼaʼn:kʼaʼn                  A ; ! "enojado" [#]
+
+joron:joron                  A ; ! "frío" [#]
+tʼebʼ:tʼebʼ                  A ; ! "grueso" [#]
+tzʼiil:tzʼiil                A ; ! "sucio" [#]
+paatzʼ:paatzʼ                A ; ! "despeinado" [#]
+
+sikʼ:sikʼ                    A ; ! "AFE" [#]
+tzikʼ:tzikʼ                  A ; ! "AFE" [#]
 
 LEXICON Adverbios 
 
@@ -595,6 +734,19 @@ chweʼq:chweʼq                ADV1 ; ! "mañana"
 lajori:lajori                ADV1 ; ! "ahora" [#]
 mir:mir                      ADV1 ; ! "hace un momento" [#]
 lajor:lajor                  ADV1 ; ! "rápido" [#]
+chik:chik                    ADV1 ; ! "PART" [#]
+
+niri:niri                    ADV1 ; ! "aqui" [#]
+ikim:ikim                    ADV1 ; ! "abajo" [#]
+jiʼ:jiʼ                      ADV1 ; ! "allá" [#]
+jili:jili                    ADV1 ; ! "allá" [#]
+chaʼ:chaʼ                    ADV1 ; ! "neg." [#]
+naj:naj                      ADV1 ; ! "lejos" [#]
+
+qe:qe                        ADV1 ; ! "solo" [#]
+ójor:ójor                    ADV1 ; ! "antiguamente" [#]
+klaʼ:klaʼ                    ADV1 ; ! "allí" [#]
+ajsik:ajsik                  ADV1 ; ! "arriba" [#]
 
 
 
