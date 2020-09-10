@@ -49,6 +49,7 @@ LEXICON Root
                                        Pronombres ; 
                                        Adjetivos ; 
                                        Adverbios ; 
+                                       Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -361,7 +362,8 @@ junabʼ:junabʼ                N1 ; ! "año" [#]
 ánim²:ánim                   N1 ; ! "mujer" [#]
 ákʼel:ákʼel                  N1 ; ! "niño" [#]
 ékʼel:ékʼel                  N1 ; ! "niño" [#]
-
+saqwech:saqwech              N1 ; ! "papa" [#]
+ichijil:ichijil              N1 ; ! "esposo" [#]
 
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
@@ -472,4 +474,37 @@ il:il                        V-TV ; ! "ver"
 tukʼ:tukʼ                    V-TV ; ! "empujar"
 kʼut:kʼut                    V-TV ; ! "enseñar"
 loqʼ:loqʼ                    V-TV ; ! "comprar"
+tik:tik                      V-TV ; ! "sembrar"
+
+
+
+LEXICON Punctuación
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%¡%<sent%>:%¡ # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%¿%<lquest%>:%¿ # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+（%<lpar%>:（ # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+）%<rpar%>:） # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+…%<sent%>:… # ;
 
