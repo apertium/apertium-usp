@@ -46,6 +46,7 @@ LEXICON Root
 
                                        Miscellaneous ;
                                        Preposiciones ;
+                                       Direccionales ;
                                        Prefijos ; 
 @P.Poss.No@:@P.Poss.No@                Sustantivos ;
                                        Propios ; 
@@ -96,6 +97,12 @@ LEXICON Aspecto
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON K
+
+%+ch%<adv%>%<dir%>:%>ch                                      # ;
+%+w%<adv%>%<dir%>:%>w                                        # ;
+                                                             # ;
+
 LEXICON SS-IV ! TODO: Flags
 
 %+ik%<mark%>:%>ik                                            # ;
@@ -122,7 +129,7 @@ LEXICON Sufijos3
 
 LEXICON A-IV-12
 
-%<s_sg1%>:in%>                                               IV ;
+%<s_sg1%>:%{í%}%{n%}%>                                       IV ;
 %<s_sg2%>:at%>                                               IV ;
 %<s_pl1%>:oj%>                                               IV ;
 %<s_pl2%>:at%>                                               IV ;
@@ -166,17 +173,17 @@ LEXICON B-TV
 LEXICON V-IV 
 
 %<v%>%<iv%>:                                                 SS-IV ;
-%<v%>%<iv%>:                                                 # ;
+%<v%>%<iv%>:                                                 K ;
 
 LEXICON V-TV 
 
 %<v%>%<tv%>:                                                 SS-TV ;
-%<v%>%<tv%>:                                                 # ;
+%<v%>%<tv%>:                                                 K ;
 
 LEXICON V-TV-D
 
 %<v%>%<tv%>:%>j                                              SS-TV ;
-%<v%>%<tv%>:%>j                                              # ;
+%<v%>%<tv%>:%>j                                              K ;
 
 
 LEXICON N1
@@ -346,6 +353,8 @@ per%<cnjcoo%>:per            # ; ! "pero"
 o%<cnjcoo%>:o                # ; ! "o"
 jwiʼl%<cnjsub%>:jwiʼl        # ; ! "porque"
 
+jaʼ%<part%>:jaʼ              # ; ! "pues"
+
 wi%<part%>:wi                # ; ! "PART" [#]
 wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
 kʼu%<part%>:kʼu              # ; ! "PART" [#]
@@ -393,6 +402,10 @@ rechaq%<prn%>%<pers%>%<p3%>%<pl%>:rechaq # ;
 ataq%<prn%>%<pers%>%<p2%>%<pl%>:ataq # ;
 retaq%<prn%>%<pers%>%<p3%>%<pl%>:retaq # ;
 
+LEXICON Direccionales
+
+kan%<adv%>%<dir%>:kan # ;
+bʼi%<adv%>%<dir%>:bʼi # ;
 
 LEXICON Determinantes 
 
@@ -579,6 +592,12 @@ bʼaatzʼ:bʼaatzʼ              N1 ; ! "hilo" [#]
 
 qʼaqʼaal:qʼaqʼaal            N1 ; ! "temperatura" [#]
 
+kúukʼ:kúukʼ                  N1 ; ! "ardilla" [#]
+rexkuukʼ:rexkuukʼ            N1 ; ! "ardilla" [rex#]
+tzʼaʼrkúʼkʼ:tzʼaʼrkúʼkʼ      N1 ; ! "ardilla" [tzʼaʼr#]
+
+jekʼon:jekʼon                N1 ; ! "jalón" [#]
+
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
 
@@ -740,6 +759,9 @@ tzikʼ:tzikʼ                  A ; ! "AFE" [#]
 
 kʼex:kʼex                    A ; ! "dolor" [#] ! TODO: Comprobar cat.
 
+rajwéxik:rajwéxik            A ; ! "necesario" [#]
+
+
 LEXICON Adverbios 
 
 lamaas:lamaas                ADV2 ; ! "dónde"
@@ -769,6 +791,7 @@ klaʼ:klaʼ                    ADV1 ; ! "allí" [#]
 kilaʼ:kilaʼ                  ADV1 ; ! "allí" [#]
 nojoʼ:nojo                   ADV1 ; ! "por allí" [#ʼ]
 
+na:na                        ADV1 ; ! "todavía" [#]
 
 
 
@@ -787,6 +810,7 @@ wiʼn:wiʼn                    V-IV ; ! "comer"
 oqʼ:oqʼ                      V-IV ; ! "llorar"
 taw:taw                      V-IV ; ! "llegar allá"
 cheʼ:cheʼ                    V-IV ; ! "decir" [#]
+peʼ:peʼ                      V-IV ; ! "venir"
 
 almaj:almaj                  V-IV ; ! "escaparse" [#iik]
 bʼen:bʼen                    V-IV ; ! "caminar" [#iik]
@@ -842,7 +866,7 @@ tuqur:tuqur                  V-IV ; ! "débilitarse" [#]
 um:um                        V-IV ; ! "retener agua en la boca" [#]
 woʼkot:woʼkot                V-IV ; ! "pasear" [#]
 
-
+ikʼaj:ikʼaj                  V-IV ; ! "sentir" [#]
 
 LEXICON TVʼ
 
