@@ -295,6 +295,8 @@ chaq%<pl%>:chaq              # ;
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
 
+kwando%<cnjsub%>:kwando      # ;
+
 LEXICON Preposiciones 
 
 chi%<pr%>:chi                # ;
@@ -400,6 +402,11 @@ bʼoʼj:bʼoʼj                  N1 ; ! "olla" [#]
 
 waa¹:waa                     N1 ; ! "tortilla" [#]
 waa²:waa                     N1 ; ! "barros" [#]
+
+pwaq:pwaq                    N1 ; ! "dinero" [#]
+wuuj:wuuj                    N1 ; ! "libro" [#]
+wuuj:wuj                     N1 ; ! "libro" [#] ! Use/Spell ! Src/Shoebox
+
 
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
