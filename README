@@ -4,9 +4,9 @@ Uspantek: `apertium-usp`
 This is an Apertium monolingual language package for Uspantek. 
 What you can use this language package for:
 
-* Morphological analysis of Classical Nahautl
-* Morphological generation of Classical Nahautl
-* Part-of-speech tagging of Classical Nahautl
+* Morphological analysis of Uspantek
+* Morphological generation of Uspantek
+* Part-of-speech tagging of Uspantek
 
 Requirements
 -------------------------------------------------------------------------------
