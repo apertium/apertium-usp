@@ -1,32 +1,60 @@
-[ 
-     m:m | 
-   [ b:ɓ ʼ:0 ] | 
-   [ p:p 0:ʰ ] | 
-   [ w:ʋ ] | 
-   [ n:n ] |
-   [ t:t ʼ:ʼ ] |
-   [ t:t 0:ʰ ]::1.0 |
-   [ t:t z:s ʼ:ʼ ] |
-   [ t:t z:s 0:ʰ ]::1.0 |
-   [ x:ʃ ] |
-   [ r:ɻ ] |
-   [ c:t h:ʃ ʼ:ʼ ] |
-   [ c:t h:ʃ 0:ʰ ]::1.0 |
-   [ j:χ ] |
-   [ k:k ʼ:ʼ ] |
-   [ k:k 0:ʰ ]::1.0 |
-   [ q:q ʼ:ʼ ] |
-   [ q:q 0:ʰ ]::1.0 |
-   [ ʼ:ʔ ] |
-   [ h:h ] |
-   [ s:s ] |
-   [ l:l ] |
-   [ a:a ] |
-   [ e:e ] |
-   [ i:i ] |
-   [ o:o ] |
-   [ u:u ] |
-   [ d:d ] |
-   [ y:j ] 
-] ;
+! Grapheme to phoneme convertor 
+! Weights are used to favour longer matches.
+Multichar_Symbols
+
+%>
+
+LEXICON Root
+
+Digraphs ;
+
+LEXICON Loop 
+
+        Digraphs "weight: 0.0" ;
+k:kʰ    # "weight: 0.0" ; 
+t:tʰ    # "weight: 0.0" ; 
+q:qʰ    # "weight: 0.0" ; 
+        # ;
+
+LEXICON Digraphs
+
+bʼ:b̥ Loop  "weight: 0.0" ;
+tʼ:tʼ Loop  "weight: 0.0" ;
+qʼ:qʼ Loop  "weight: 0.0" ;
+kʼ:kʼ Loop  "weight: 0.0" ; ! TODO: palatalisation
+ch:tʃ Loop  "weight: 0.0" ;
+tz:ts Loop  "weight: 0.0" ;
+      Graphs  "weight: 1.0" ;
+
+LEXICON Graphs 
+m:m  Loop ;
+n:n  Loop ;
+p:p  Loop ;
+t:t  Loop ; ! TODO: aspiration
+x:ʃ  Loop ;
+r:r  Loop ;
+h:h  Loop ;
+l:l  Loop ;
+y:j  Loop ;
+j:x  Loop ;
+w:w  Loop ;
+l:l  Loop ;
+s:s  Loop ;
+g:g  Loop ;
+k:k  Loop ; ! TODO: aspiration
+ʼ:ʔ  Loop ; 
+
+a:a  Loop ;
+e:e  Loop ;
+i:i  Loop ;
+o:o  Loop ;
+u:u  Loop ;
+
+aa:aː  Loop ;
+ee:eː  Loop ;
+ii:iː  Loop ;
+oo:oː  Loop ;
+uu:uː  Loop ;
+
+     Loop ;
 

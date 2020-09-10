@@ -56,7 +56,7 @@ usp.seg.hfst: usp.mor.hfst usp.gen.hfst
 	hfst-compose -F -1 usp.mor.hfst -2 usp.gen.hfst -o usp.seg.hfst 
 
 usp.phon.hfst: apertium-usp.usp.phon
-	hfst-regexp2fst -S apertium-usp.usp.phon | hfst-repeat -o usp.phon.hfst
+	hfst-lexc apertium-usp.usp.phon -o $@
 
 usp.autophon.hfst: usp.mor.hfst usp.phon.hfst
 	hfst-fst2fst -w usp.phon.hfst -o usp.autophon.hfst
