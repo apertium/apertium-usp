@@ -88,8 +88,10 @@ LEXICON Aspecto
 %<perf%>:x%>                                                 A-IV ; 
 %<perf%>:x%>                                                 A-TV ; 
 %<impf%>:t%{i%}%>                                            A-IV-3 ;    ! ti-, t-
+%<impf%>:                                                    A-IV-3 ;
 %<impf%>:                                                    A-IV-12 ;   ! ø-
 %<impf%>:t%{i%}%>                                            A-TV-3 ; 
+%<impf%>:                                                    A-TV-3 ;              ! Taʼ ø-ø-raj ti-ø-j-yeʼ r-ee.
 %<impf%>:                                                    A-TV-12 ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -617,6 +619,7 @@ wiʼl:wiʼl                    REL ; ! ""
 paam:paam                    REL ; ! "fondo"
 wiich:wiich                  REL ; ! ""
 wiich:wich                   REL ; ! "" ! Use/Spell ! Src/Shoebox
+ee:ee                        REL ; ! ""
 
 ! FIXME: Sólo p3
 !peech
@@ -842,6 +845,8 @@ woʼkot:woʼkot                V-IV ; ! "pasear" [#]
 
 
 LEXICON TVʼ
+
+aj:aj                        V-TV ; ! "querer"
 
 chap:chap                    V-TV ; ! "agarrar"
 kʼam:kʼam                    V-TV ; ! "recibir"

@@ -29,23 +29,23 @@ ArchiVow = %{y%} ;
 Rules 
 
 "Alternation in third person singular possession"
-%{j%}:r <=> _ %>: [ ArchiVow: | :Vow ]; 
+%{j%}:r <=> _ %>:+ [ ArchiVow: | :Vow ]; 
 
 "Alternation in second person possession"
-%{a%}:0 <=> _ %>: [ ArchiVow: | :Vow ] ;
+%{a%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
 
 "Alternation in first person singular (I)"
-%{n%}:w <=>  _ %>: [ ArchiVow: | :Vow ] ;
+%{n%}:w <=>  _ %>:+ [ ArchiVow: | :Vow ] ;
 
 "Alternation in first person singular (II)"
-%{í%}:0 <=> _ %{n%}:w %>: [ ArchiVow: | :Vow ] ;
+%{í%}:0 <=> _ %{n%}:w %>:+ [ ArchiVow: | :Vow ] ;
 
 !@ {í}:0 {n}:w > i c h > a a j
 
 "Stem vowel lengthening in possession"
-%{ː%}:Vx <=> %>: Cns+ Vx _ Cns+ ; 
+%{ː%}:Vx <=> %>:+ Cns+ Vx _ Cns+ ; 
           where Vx in ( a e i o u ) ;
 
 "Alternation in imperfective t(i)-"
-%{i%}:0 <=> _ %>: [ ArchiVow: | :Vow ] ;
+%{i%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
 
