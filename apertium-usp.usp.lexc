@@ -149,6 +149,12 @@ LEXICON V-TV
 %<v%>%<tv%>:                                                 SS-TV ;
 %<v%>%<tv%>:                                                 # ;
 
+LEXICON V-TV-D
+
+%<v%>%<tv%>:%>j                                              SS-TV ;
+%<v%>%<tv%>:%>j                                              # ;
+
+
 LEXICON N1
 
 %<n%>:                                                       Sufijos2 ; 
@@ -314,6 +320,7 @@ LEXICON Pronombres
 neen:neen                    PRON2 ; ! "qué"
 
 riʼ:riʼ                      PRON3 ; ! "eso es" [#]
+li:li                        PRON3 ; ! "" [#]
 
 LEXICON Determinantes 
 
@@ -523,6 +530,16 @@ war:war                      V-IV ; ! "dormir"
 wiʼn:wiʼn                    V-IV ; ! "comer"
 oqʼ:oqʼ                      V-IV ; ! "llorar"
 taw:taw                      V-IV ; ! "llegar allá"
+cheʼ:cheʼ                    V-IV ; ! "decir" [#]
+
+almaj:almaj                  V-IV ; ! "escaparse" [#iik]
+bʼen:bʼen                    V-IV ; ! "caminar" [#iik]
+jol:jol                      V-IV ; ! "correr" [#iik]
+kam:kam                      V-IV ; ! "morir" [#iik]
+kan:kan                      V-IV ; ! "quedar" [#iik]
+pax:pax                      V-IV ; ! "estallar" [#iik]
+pet:pet                      V-IV ; ! "venir" [#iik]
+
 
 LEXICON TVʼ
 
@@ -537,6 +554,43 @@ bʼay:bʼay                    V-TV ; ! "entrener/demorar"
 cheqʼ:cheqʼ                  V-TV ; ! "tropezar"
 bʼan:bʼan                    V-TV ; ! "hacer" [#]
 
+qej:qej                      V-TV ; ! "prestar, alquilar, bajar, llegar" [#iik]
+kʼat:kʼat                    V-TV ; ! "quemar, quemarse" [#iik]
+maj:maaj                     V-TV ; ! "quitar, comenzar, masajear" [#iik]
+maj:maj                      V-TV ; ! "quitar, comenzar, masajear" [#iik]
+
+bʼit:bʼit                    V-TV ; ! "levantar" [#iik]
+chap:chap                    V-TV ; ! "agarrar" [#iik]
+cheqʼ:cheqʼ                  V-TV ; ! "tropezar" [#iik]
+chup:chup                    V-TV ; ! "apagar" [#iik]
+chʼebʼ:chʼebʼ                V-TV ; ! "conocer" [#iik]
+chʼobʼ:chʼobʼ                V-TV ; ! "conocer" [#iik]
+jor:jor                      V-TV ; ! "perforar" [#iik]
+kachʼ:kachʼ                  V-TV ; ! "morder" [#iik]
+kut:kut                      V-TV ; ! "disparar" [#iik]
+kʼam:kʼam                    V-TV ; ! "recibir, guiar, juntar" [#iik]
+kʼat:kʼat                    V-TV ; ! "quemar" [#iik]
+kʼex:kʼex                    V-TV ; ! "cambiar" [#iik]
+kʼul:kʼul                    V-TV ; ! "recibir" [#iik]
+kʼur:kʼur                    V-TV ; ! "cortar" [#iik]
+mol:mol                      V-TV ; ! "juntar, recoger" [#iik]
+qʼatz:qʼatz                  V-TV ; ! "cortar con los dientes" [#iik]
+qʼax:qʼax                    V-TV ; ! "pasar" [#iik]
+qʼip:qʼip                    V-TV ; ! "quebrar" [#iik]
+rak:rak                      V-TV ; ! "raspar" [#iik]
+rep:rep                      V-TV ; ! "alumbrar" [#iik]
+sok:sok                      V-TV ; ! "cortarlo" [#iik]
+taʼ:taʼ                      V-TV ; ! "encontrar, preguntar, alcanzar" [#iik]
+titzʼ:titzʼ                  V-TV ; ! "meter" [#iik]
+tix:tix                      V-TV ; ! "regar" [#iik]
+tok:tok                      V-TV ; ! "buscarlo" [#iik]
+tʼok:tʼok                    V-TV ; ! "apretar" [#iik]
+yeʼ:yeʼ                      V-TV ; ! "dar" [#iik]
+yuq:yuq                      V-TV ; ! "estirar" [#iik]
+
+
+qʼatatej:qʼatate             V-TV-D ; ! "cortar" [#j]
+kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 
 LEXICON Punctuación
 
