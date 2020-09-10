@@ -85,6 +85,15 @@ LEXICON Aspecto
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON SS-IV ! TODO: Flags
+
+%+ik%<mark%>:%>ik                                            # ;
+%+oq%<mark%>:%>oq                                            # ;
+
+LEXICON SS-TV ! TODO: Flags
+
+%+w%<mark%>:%>w                                              # ;
+%+eʼ%<mark%>:%>eʼ                                            # ;
 
 LEXICON Sufijos1
 
@@ -131,12 +140,13 @@ LEXICON B-TV
 
 LEXICON V-IV 
 
+%<v%>%<iv%>:                                                 SS-IV ;
 %<v%>%<iv%>:                                                 # ;
 
 LEXICON V-TV 
 
+%<v%>%<tv%>:                                                 SS-TV ;
 %<v%>%<tv%>:                                                 # ;
-
 
 LEXICON N1
 
@@ -180,6 +190,10 @@ LEXICON N8
 
 %<n%>:                                                       Sufijos2 ; 
 %<n%>:                                                       Sufijos1 ; 
+
+LEXICON N9
+
+%<n%>:                                                       Sufijos2 ; 
 
 LEXICON REL
 
@@ -360,15 +374,30 @@ wunaq:wunaq                  N1 ; ! "hombre" [#]
 junabʼ:junabʼ                N1 ; ! "año" [#]
 ánim¹:anim                   N1 ; ! "corazón" [#]
 ánim²:ánim                   N1 ; ! "mujer" [#]
+ánim²:ánm                    N1 ; ! "mujer" [#]
 ákʼel:ákʼel                  N1 ; ! "niño" [#]
 ékʼel:ékʼel                  N1 ; ! "niño" [#]
 saqwech:saqwech              N1 ; ! "papa" [#]
 ichijil:ichijil              N1 ; ! "esposo" [#]
 
+cheeʼ¹:cheeʼ                 N1 ; ! "árbol" [#]
+cheeʼ²:cheeʼ                 N1 ; ! "cárcel" [#]
+kinaqʼ:kinaqʼ                N1 ; ! "fríjol" [#]
+kolobʼ:kolobʼ                N1 ; ! "lazo" [#]
+maam:maam                    N1 ; ! "abuelo" [#]
+sokeʼl:sokeʼl                N1 ; ! "cortada" [#]
+tuuj:tuuj                    N1 ; ! "temascal" [#]
+kitz:kitz                    N1 ; ! "diente de leche" [#]
+aqan:aqan                    N1 ; ! "pie" [#]
+bʼoʼj:bʼoʼj                  N1 ; ! "olla" [#]
+
+
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
 
 kʼutubʼ:kʼutubʼ              N8 ; ! "medidor" [#ubʼ]
+
+jaa:jaa                      N9 ; ! "casa" [#]
 
 LEXICON Poseídos 
 
@@ -390,6 +419,7 @@ chiʼ:chiʼ                    REL ; ! "orilla de"
 iibʼ:iibʼ                    REL ; ! "" 
 iibʼ:ibʼ                     REL ; ! ""  ! Use/Spell ! Src/Shoebox
 wiʼl:wiʼl                    REL ; ! ""
+paam:paam                    REL ; ! "fondo"
 
 ! FIXME: Sólo p3
 !peech
@@ -446,10 +476,14 @@ qus:qus                      A ; ! "bueno" [#]
 LEXICON Adverbios 
 
 lamaas:lamaas                ADV2 ; ! "dónde"
+lamaas:lamas                 ADV2 ; ! "dónde" ! Src/Shoebox
 
 chweʼq:chweʼq                ADV1 ; ! "mañana"
 íwir:íwir                    ADV1 ; ! "ayer"
 lajori:lajori                ADV1 ; ! "ahora" [#]
+mir:mir                      ADV1 ; ! "hace un momento" [#]
+lajor:lajor                  ADV1 ; ! "rápido" [#]
+
 
 
 LEXICON TV
@@ -465,6 +499,7 @@ LEXICON IVʼ
 war:war                      V-IV ; ! "dormir"
 wiʼn:wiʼn                    V-IV ; ! "comer"
 oqʼ:oqʼ                      V-IV ; ! "llorar"
+taw:taw                      V-IV ; ! "llegar allá"
 
 LEXICON TVʼ
 
@@ -475,6 +510,7 @@ tukʼ:tukʼ                    V-TV ; ! "empujar"
 kʼut:kʼut                    V-TV ; ! "enseñar"
 loqʼ:loqʼ                    V-TV ; ! "comprar"
 tik:tik                      V-TV ; ! "sembrar"
+bʼay:bʼay                    V-TV ; ! "entrener/demorar" 
 
 
 
