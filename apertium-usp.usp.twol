@@ -10,6 +10,7 @@ Alphabet
   %{w%}:w %{w%}:0
   %{n%}:n %{n%}:w
   %{ː%}:0
+  %{y%}:0
 
   %> 
 
@@ -22,28 +23,21 @@ Vow = a e i o u
 
 Cns = b c d f g h j k l m n p q r s t v w x y z ʼ ; 
 
+ArchiVow = %{y%} ; 
+
 Rules 
 
 "Alternation in third person singular possession"
-%{j%}:r <=> _ %>: :Vow ; 
+%{j%}:r <=> _ %>: [ ArchiVow: | :Vow ]; 
 
 "Alternation in second person possession"
-%{a%}:0 <=> _ %>: :Vow ;
-
-!"Alternation in first person singular (I)"
-!%{w%}:w <=>  _ %>: :Vow ;
-!
-!"Alternation in first person singular (II)"
-!%{n%}:0 <=> _ %{w%}:w %>: :Vow ;
-!
-!"Alternation in first person singular (III)"
-!%{í%}:0 <=> _ %{n%}:0 %{w%}:w %>: :Vow ;
+%{a%}:0 <=> _ %>: [ ArchiVow: | :Vow ] ;
 
 "Alternation in first person singular (I)"
-%{n%}:w <=>  _ %>: :Vow ;
+%{n%}:w <=>  _ %>: [ ArchiVow: | :Vow ] ;
 
 "Alternation in first person singular (II)"
-%{í%}:0 <=> _ %{n%}:w %>: :Vow ;
+%{í%}:0 <=> _ %{n%}:w %>: [ ArchiVow: | :Vow ] ;
 
 !@ {í}:0 {n}:w > i c h > a a j
 

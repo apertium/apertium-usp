@@ -26,6 +26,7 @@ Multichar_Symbols
 %{í%}                                  ! í / 0 
 %{a%}                                  ! a / 0
 %{ː%}                                  ! a / e / i / o / u
+%{y%}                                  ! 0
 
 @D.Poss@                               !
 @P.Poss.No@                            !
@@ -194,6 +195,12 @@ LEXICON N8
 LEXICON N9
 
 %<n%>:                                                       Sufijos2 ; 
+
+LEXICON N10
+
+%<n%>:                                                       Sufijos2 ; 
+%<n%>:%>il                                                   Sufijos3 ; 
+
 
 LEXICON REL
 
@@ -391,24 +398,31 @@ kitz:kitz                    N1 ; ! "diente de leche" [#]
 aqan:aqan                    N1 ; ! "pie" [#]
 bʼoʼj:bʼoʼj                  N1 ; ! "olla" [#]
 
+waa¹:waa                     N1 ; ! "tortilla" [#]
+waa²:waa                     N1 ; ! "barros" [#]
 
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
 
 kʼutubʼ:kʼutubʼ              N8 ; ! "medidor" [#ubʼ]
 
+kʼexkʼol:kʼexkʼol            N1 ; ! "dolor" [#]
+
 jaa:jaa                      N9 ; ! "casa" [#]
+
+ixóqil:ixóq                  N10 ; ! "hembra"
 
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
-ichooch:ichooch              N7 ; ! "casa" [-#]
+chooch:%{y%}chooch           N7 ; ! "casa" [-#]
 
 LEXICON Relacionales
 
 ech:e%{ː%}ch                 REL ; ! "de (pertenencia)"
 wach:wach                    REL ; ! "enfrente de"
 iij:iij                      REL ; ! "atrás de"
+iij:ij                       REL ; ! "atrás de" ! Use/Spell ! Src/Shoebox
 elaaj:elaaj                  REL ; ! "debajo de"
 qul:qul                      REL ; ! "cuello"
 bʼaa:bʼaa                    REL ; ! "sobre de"
@@ -420,6 +434,8 @@ iibʼ:iibʼ                    REL ; ! ""
 iibʼ:ibʼ                     REL ; ! ""  ! Use/Spell ! Src/Shoebox
 wiʼl:wiʼl                    REL ; ! ""
 paam:paam                    REL ; ! "fondo"
+wiich:wiich                  REL ; ! ""
+wiich:wich                   REL ; ! "" ! Use/Spell ! Src/Shoebox
 
 ! FIXME: Sólo p3
 !peech
@@ -511,7 +527,8 @@ kʼut:kʼut                    V-TV ; ! "enseñar"
 loqʼ:loqʼ                    V-TV ; ! "comprar"
 tik:tik                      V-TV ; ! "sembrar"
 bʼay:bʼay                    V-TV ; ! "entrener/demorar" 
-
+cheqʼ:cheqʼ                  V-TV ; ! "tropezar"
+bʼan:bʼan                    V-TV ; ! "hacer" [#]
 
 
 LEXICON Punctuación
