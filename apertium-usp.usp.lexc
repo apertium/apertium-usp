@@ -175,6 +175,11 @@ LEXICON N7
 
 %<n%>:                                                       Sufijos3 ; 
 
+LEXICON N8
+
+%<n%>:                                                       Sufijos2 ; 
+%<n%>:                                                       Sufijos1 ; 
+
 LEXICON REL
 
 %<n%>%<rel%>:                                                Sufijos3 ; 
@@ -239,6 +244,10 @@ LEXICON PRON2
 
 %<prn%>%<itg%>:                                              # ; 
 
+LEXICON PRON3
+
+%<prn%>%<dem%>:                                              # ; 
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -249,8 +258,13 @@ ra%<dim%>:ra                 # ;
 aj%<gen%>:aj                 # ;
 no%<neg%>:no                 # ;
 taʼ%<neg%>:taʼ               # ;
+kitaʼ%<neg%>:kitaʼ           # ;
+jinon%<ij%>:jinon            # ; 
 
 tijin%<aux%>:tijin           # ;
+tijin%<aux%>:tijiin          # ; ! Src/Covid
+
+sebʼlaj%<ints%>:sebʼlaj      # ;
 
 taq%<pl%>:taq                # ;
 
@@ -271,6 +285,8 @@ chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! ""
 LEXICON Pronombres
 
 neen:neen                    PRON2 ; ! "qué"
+
+riʼ:riʼ                      PRON3 ; ! "eso es" [#]
 
 LEXICON Determinantes 
 
@@ -328,7 +344,15 @@ siikʼ:siik                   N1 ; ! "cigarro" [#] ! Use/Spell ! Src/Covid
 chʼiichʼ:chʼiichʼ            N1 ; ! "vehículo" [#]
 chʼiichʼ:chʼiich             N1 ; ! "vehículo" [#] ! Use/Spell ! Src/Covid
 tataʼ:tataʼ                  N1 ; ! "señor" [#]
+jaaʼ:jaaʼ                    N1 ; ! "mollera" [#]
+niʼj:niʼj                    N1 ; ! "lagartija" [#]
+yaaj:yaaj                    N1 ; ! "enfermo" [#]
+usum:usum                    N1 ; ! "mosquito" [#]
+teew:teew                    N1 ; ! "aire" [#]
 
+kristyan:kristyan            N1 ; ! "cristiano" [#]
+
+kʼutubʼ:kʼutubʼ              N8 ; ! "medidor" [#ubʼ]
 
 LEXICON Poseídos 
 
@@ -400,6 +424,7 @@ pool:pool                    A ; ! "blanco" < flor
 
 aakʼ:aakʼ                    A ; ! "nuevo" [#]
 looqʼ:looqʼ                  A ; ! "querido" [#]
+qus:qus                      A ; ! "bueno" [#]
 
 LEXICON Adverbios 
 
