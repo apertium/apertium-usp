@@ -374,6 +374,14 @@ li:li                        PRON3 ; ! "" [#]
 
 LEXICON Pers 
 
+in%<prn%>%<pro%>%<p1%>%<sg%>:in # ;
+at%<prn%>%<pro%>%<p2%>%<sg%>:at # ;
+re%<prn%>%<pro%>%<p3%>%<sg%>:re # ;
+oj%<prn%>%<pro%>%<p1%>%<pl%>:oj # ;
+rechaq%<prn%>%<pro%>%<p3%>%<pl%>:rechaq # ;
+ataq%<prn%>%<pro%>%<p2%>%<pl%>:ataq # ;
+retaq%<prn%>%<pro%>%<p3%>%<pl%>:retaq # ;
+
 iin%<prn%>%<pers%>%<p1%>%<sg%>:iin # ;
 aat%<prn%>%<pers%>%<p2%>%<sg%>:aat # ;
 re%<prn%>%<pers%>%<p3%>%<sg%>:re # ;
@@ -381,7 +389,6 @@ ooj%<prn%>%<pers%>%<p1%>%<pl%>:ooj # ;
 rechaq%<prn%>%<pers%>%<p3%>%<pl%>:rechaq # ;
 ataq%<prn%>%<pers%>%<p2%>%<pl%>:ataq # ;
 retaq%<prn%>%<pers%>%<p3%>%<pl%>:retaq # ;
-
 
 
 LEXICON Determinantes 
@@ -580,6 +587,9 @@ jaa:jaa                      N9 ; ! "casa" [#]
 
 ixóqil:ixóq                  N10 ; ! "hembra"
 
+qʼiij:qʼiij                  N1 ; ! "día" [#]
+
+
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
@@ -724,6 +734,8 @@ paatzʼ:paatzʼ                A ; ! "despeinado" [#]
 sikʼ:sikʼ                    A ; ! "AFE" [#]
 tzikʼ:tzikʼ                  A ; ! "AFE" [#]
 
+kʼex:kʼex                    A ; ! "dolor" [#] ! TODO: Comprobar cat.
+
 LEXICON Adverbios 
 
 lamaas:lamaas                ADV2 ; ! "dónde"
@@ -732,6 +744,7 @@ lamaas:lamas                 ADV2 ; ! "dónde" ! Src/Shoebox
 chweʼq:chweʼq                ADV1 ; ! "mañana"
 íwir:íwir                    ADV1 ; ! "ayer"
 lajori:lajori                ADV1 ; ! "ahora" [#]
+jor:jor                      ADV1 ; ! "ahora" [#]
 mir:mir                      ADV1 ; ! "hace un momento" [#]
 lajor:lajor                  ADV1 ; ! "rápido" [#]
 chik:chik                    ADV1 ; ! "PART" [#]
@@ -747,6 +760,11 @@ qe:qe                        ADV1 ; ! "solo" [#]
 ójor:ójor                    ADV1 ; ! "antiguamente" [#]
 klaʼ:klaʼ                    ADV1 ; ! "allí" [#]
 ajsik:ajsik                  ADV1 ; ! "arriba" [#]
+
+klaʼ:klaʼ                    ADV1 ; ! "allí" [#]
+kilaʼ:kilaʼ                  ADV1 ; ! "allí" [#]
+nojoʼ:nojo                   ADV1 ; ! "por allí" [#ʼ]
+
 
 
 
