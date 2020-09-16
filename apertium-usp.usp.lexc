@@ -8,6 +8,7 @@ Multichar_Symbols
 %<num%>                                ! Numeral
 %<adv%>                                ! Adverbio
 %<pr%>                                 ! Preposición
+%<ij%>                                 ! Interyección
 
 %<cog%>                                ! Cognomen
 
@@ -55,6 +56,7 @@ LEXICON Root
                                        Pronombres ; 
                                        Adjetivos ; 
                                        Adverbios ; 
+                                       Interyecciones ; 
                                        Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -276,6 +278,10 @@ LEXICON COG4
 %<np%>%<cog%>:                                               # ;
 ! TODO: Añadir plural
 
+LEXICON COG5
+
+%<np%>%<cog%>:                                               # ;
+
 LEXICON ANTF
 
 %<np%>%<ant%>%<f%>:                                          # ;
@@ -352,9 +358,13 @@ don%<clf%>%<m%>:don          # ;
 qaaj%<clf%>%<m%>:qaaj        # ;
 chuch%<clf%>%<f%>:chuch      # ;
 
+porque%<cnjsub%>:porque      # ; ! "cuando"
 kwando%<cnjsub%>:kwando      # ; ! "cuando"
+cuando%<cnjsub%>:cuand       # ; ! "cuando"
+cuando%<cnjsub%>:cuando      # ; ! "cuando"
 we%<cnjsub%>:we              # ; ! "si"
 i%<cnjcoo%>:i                # ; ! "y"
+y%<cnjcoo%>:y                # ; ! "y"
 per%<cnjcoo%>:per            # ; ! "pero"
 per%<cnjcoo%>:pero           # ; ! "pero"
 o%<cnjcoo%>:o                # ; ! "o"
@@ -382,11 +392,14 @@ pu%<pr%>:pu                  # ;
 
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" 
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" 
+chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>qe    # ;
 
 chi%<pr%>%+%<px3sg%>xoʼl%<n%>%<rel%>:chi%>j%>xoʼl # ; ! ""
 
 chi%<pr%>%+%<px1sg%>iij%<n%>%<rel%>:ch%>w%>ij # ; ! ""
 chi%<pr%>%+%<px3sg%>iij%<n%>%<rel%>:chi%>r%>ij # ; ! ""
+
+chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:chqáwch # ; ! ""
 
 
 LEXICON Pronombres
@@ -748,6 +761,8 @@ Ajchiku:Ajchiku              COG4 ; ! "Ajchicu" [#]
 Ajaneel:Ajaneel              COG4 ; ! "Ajanel" [#]
 Aaj:Aaj                      COG4 ; ! "Aj" [#]
 
+José:José                    ANTM ; ! ""
+Méndez:Méndez                COG5 ; ! ""
 
 Treʼs:Treʼs                  ANTF ; ! "Teresa" [#]
 Terees:Terees                ANTF ; ! "Teresa" [#]
@@ -937,6 +952,7 @@ maay:maay                    ADV1 ; ! "primeras horas de la noche" [#]
 
 
 ya:ya                        ADV1 ; ! "ya" [#]
+pues:pues                    ADV1 ; ! "pues" [#]
 
 LEXICON TV
 
@@ -956,6 +972,7 @@ oqʼ:oqʼ                      V-IV ; ! "llorar"
 taw:taw                      V-IV ; ! "llegar allá"
 cheʼ:cheʼ                    V-IV ; ! "decir" [#]
 peʼ:peʼ                      V-IV ; ! "venir"
+peʼ:pe                       V-IV ; ! "venir"
 
 almaj:almaj                  V-IV ; ! "escaparse" [#iik]
 bʼen:bʼen                    V-IV ; ! "caminar" [#iik]
@@ -1066,6 +1083,10 @@ yuq:yuq                      V-TV ; ! "estirar" [#iik]
 qʼatatej:qʼatate             V-TV-D ; ! "cortar" [#j]
 kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 komsáj:komsá                 V-TV-D ; ! "matar" [#j]
+
+LEXICON Interyecciones
+
+eh%<ij%>:eh                  # ;
 
 LEXICON Punctuación
 
