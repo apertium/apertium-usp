@@ -688,27 +688,43 @@ wach:wach                    REL ; ! "enfrente de"
 iij:iij                      REL ; ! "atrás de"
 iij:ij                       REL ; ! "atrás de" ! Use/Spell ! Src/Shoebox
 elaaj:elaaj                  REL ; ! "debajo de"
+alaaj:alaaj                  REL ; ! "SR" [-#] ! Use/Spell ! Src/Dico
 qul:qul                      REL ; ! "cuello"
 bʼaa:bʼaa                    REL ; ! "sobre de"
+bʼaa:bʼa                     REL ; ! "SR" ! Use/Spell ! Src/Dico
 achaq:achaq                  REL ; ! "?"
 xúkut:xúkut                  REL ; ! "al lado de"
 ikʼil:ikʼil                  REL ; ! "?"
+ikʼiil:ikʼiil                REL ; ! "SR" [-#]
 chiʼ:chiʼ                    REL ; ! "orilla de"
 iibʼ:iibʼ                    REL ; ! "" 
 iibʼ:ibʼ                     REL ; ! ""  ! Use/Spell ! Src/Shoebox
 wiʼl:wiʼl                    REL ; ! ""
+wiʼl:wil                     REL ; ! "SR" [j#] ! Use/Spell
 paam:paam                    REL ; ! "fondo"
 paam:pam                     REL ; ! "fondo" ! Use/Spell ! Src/Shoebox
 wiich:wiich                  REL ; ! ""
 wiich:wich                   REL ; ! "" ! Use/Spell ! Src/Shoebox
 ee:ee                        REL ; ! ""
+ee:e                         REL ; ! "SR" [-#] ! Use/Spell ! Src/Dico
 xoʼl:xoʼl                    REL ; ! "medio"
 peech:peech                  REL ; ! "con" [#]
 xaqʼ:xaqʼ                    REL ; ! "" [#]
+xílij:xílij                  REL ; ! "adentro" [#]
+qʼaabʼ:qʼaabʼ                REL ; ! "SR" [#]
 
 ! FIXME: Sólo p3
-!peech
-!laʼ
+peech:peech                  REL ; ! ""
+laʼ:laʼ                      REL ; ! ""
+
+
+! FIXME: chi + ib' ?  ~ chrib'
+chibʼ:chibʼ                  REL ; ! "SR" [#] 
+!chiwch:chiw                  Rel ; ! "en frente de" [#ch]
+!chúwch:wch                   Rel ; ! "SR." [chú#]
+!re:e                         Rel ; ! "SR" [r#] ! FIXME: comprobar -e
+!we:we                        REL ; ! "SR:de" [w#]
+
 
 LEXICON Propios 
 
