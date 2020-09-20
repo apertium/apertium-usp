@@ -376,6 +376,7 @@ chaq%<part%>:chaq            # ; ! ""
 wi%<part%>:wi                # ; ! "PART" [#]
 wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
 kʼu%<part%>:kʼu              # ; ! "PART" [#]
+mat%<part%>:mat              # ; ! "PART" [#]
 
 
 LEXICON Preposiciones 
@@ -438,6 +439,7 @@ LEXICON Determinantes
 
 li:li                        DET1 ; ! "el"
 ri:ri                        DET1 ; ! "el"
+re:re                        DET1 ; ! "el"
 man:man                      DET1 ; ! "el"
 man:maq                      DET2 ; ! "el"
 yaj:yaj                      DET1 ; ! "el"
@@ -537,6 +539,7 @@ waa¹:waa                     N1 ; ! "tortilla" [#]
 waa²:waa                     N1 ; ! "barros" [#]
 
 pwaq:pwaq                    N1 ; ! "dinero" [#]
+pwaq:puwaq                   N1 ; ! "dinero" [#] ! Use/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 wuuj:wuuj                    N1 ; ! "libro" [#]
 wuuj:wuj                     N1 ; ! "libro" [#] ! Use/Spell ! Src/Shoebox
 
@@ -611,6 +614,7 @@ tzaam:tzaam                  N1 ; ! "nariz" [#]
 tzaam:tzam                   N1 ; ! "nariz" [#] ! Use/Spell ! Src/Shoebox
 toqʼobʼ:toqʼobʼ              N1 ; ! "favor" [#]
 tiitʼ:tiitʼ                  N1 ; ! "abuela" [#]
+tiitʼ:tiit                   N1 ; ! "abuela" [#] ! Use/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 qʼiibʼ:qʼiibʼ                N1 ; ! "cántaro" [#]
 poop:poop                    N1 ; ! "petate" [#]
 paar:paar                    N1 ; ! "zorro" [#]
@@ -663,6 +667,8 @@ qaaj:qaaj                    N1 ; ! "papá" [#]
 qaaj:qaj                     N1 ; ! "papá" [#] ! Use/Spell ! Src/Shoebox
 
 yolooj:yolooj                N1 ; ! "plática" [#]
+kortiil:kortiil              N1 ; ! "cuartilla" [#]
+
 
 LEXICON Poseídos 
 
@@ -711,6 +717,12 @@ Kʼisachálik:Kʼisachálik      TOP ; ! ""
 Najtilja:Najtilja            TOP ; ! ""
 Chʼipaq:Chʼipaq              TOP ; ! ""
 Kʼixpaaj:Kʼixpaaj            TOP ; ! ""
+
+Xoqonebʼ:Xoqonebʼ            TOP ; ! ""
+Kóbʼn:Kóbʼn                  TOP ; ! ""
+Rabʼinal:Rabʼinal            TOP ; ! ""
+Kaabʼ:Kaabʼ                  TOP ; ! ""
+Tzʼunun:Tzʼunun              TOP ; ! ""
 
 Chʼolaʼ:Chʼolaʼ              TOP ; ! "Cholá" [#]
 Najtijaa:Najtijaa            TOP ; ! "?" [#]
@@ -901,6 +913,9 @@ xikʼ:xikʼ                    A ; ! "mal olor" [#]
 sikʼ:sikʼ                    A ; ! "AFE" [#]
 tzikʼ:tzikʼ                  A ; ! "AFE" [#]
 
+qubʼ:qubʼ                    A ; ! "mohoso" [#]
+
+
 kʼex:kʼex                    A ; ! "dolor" [#] ! TODO: Comprobar cat.
 
 rajwéxik:rajwéxik            A ; ! "necesario" [#]
@@ -951,6 +966,7 @@ jliʼ:jliʼ                    ADV1 ; ! "allá" [#]
 maay:maay                    ADV1 ; ! "primeras horas de la noche" [#]
 
 
+más:más                      ADV1 ; ! "más" [#]
 ya:ya                        ADV1 ; ! "ya" [#]
 pues:pues                    ADV1 ; ! "pues" [#]
 
@@ -1083,6 +1099,10 @@ yuq:yuq                      V-TV ; ! "estirar" [#iik]
 qʼatatej:qʼatate             V-TV-D ; ! "cortar" [#j]
 kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 komsáj:komsá                 V-TV-D ; ! "matar" [#j]
+
+yol:yol                      V-TV ; ! "contar" [#iik]
+nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
+
 
 LEXICON Interyecciones
 
