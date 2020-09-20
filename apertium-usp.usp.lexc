@@ -378,6 +378,10 @@ wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
 kʼu%<part%>:kʼu              # ; ! "PART" [#]
 mat%<part%>:mat              # ; ! "PART" [#]
 
+neen%<qst%>:neen             # ; ! "INT" [#]
+neen%<qst%>:nin              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
+neen%<qst%>:nen              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
+
 
 LEXICON Preposiciones 
 
