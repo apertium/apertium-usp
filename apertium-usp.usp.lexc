@@ -166,11 +166,12 @@ LEXICON B-TV
 
 %<s_sg1%>:in%{w%}%>                                          TV ;
 %<s_sg2%>:a%{w%}%>                                           TV ;
-%<s_sg3%>:%{j%}%>                                            TV ; 
+%<s_sg3%>:%{j%}%>                                            TV ;  ! tril
+%<s_sg3%>:                                                   TV ;  ! tche'
 %<s_pl1%>:q%{a%}%>                                           TV ;
 %<s_pl2%>:a%{w%}%>                                           TV ;
-%<s_pl3%>:                                                   TV ; 
 %<s_pl3%>:%{j%}%>                                            TV ; 
+%<s_pl3%>:                                                   TV ; 
 
 
 LEXICON V-IV 
@@ -384,6 +385,8 @@ neen%<qst%>:neen             # ; ! "INT" [#]
 neen%<qst%>:nin              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 neen%<qst%>:nen              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 
+chkiʼ%<emph%>:chkiʼ          # ; ! "PART-ENF" [#]
+
 
 LEXICON Preposiciones 
 
@@ -441,6 +444,7 @@ LEXICON Direccionales
 
 kan%<adv%>%<dir%>:kan # ;
 bʼi%<adv%>%<dir%>:bʼi # ;
+bʼi%<adv%>%<dir%>:bʼik # ; ! FIXME: Comprobar + SS ?
 
 LEXICON Determinantes 
 
@@ -589,6 +593,7 @@ jul:jul                      N1 ; ! "hoyo" [#]
 kaabʼ:kaabʼ                  N1 ; ! "dulce, miel, panela" [#]
 kʼim:kʼim                    N1 ; ! "paja" [#]
 pech:pech                    N1 ; ! "compañero" [#]
+pech:pach                    N1 ; ! "compañero" [#] ! Use/Spell ! Src/Xoqoneb'
 qul:qul                      N1 ; ! "voz" [#]
 qʼabʼreel:qʼabʼreel          N1 ; ! "bolo" [#]
 qʼooqʼ:qʼooqʼ                N1 ; ! "chilacayote" [#]
@@ -655,6 +660,9 @@ jekʼon:jekʼon                N1 ; ! "jalón" [#]
 kristyaan:kristyaan          N1 ; ! "cristiano" [#] 
 kristyaan:kristyan           N1 ; ! "cristiano" [#]  ! Use/Spell ! Src/Covid
 desayuun:desayuun            N1 ; ! "desayuno" [#]
+
+dyos:dyos                    N1 ; ! "Dios" 
+dyos:dios                    N1 ; ! "Dios" [#] ! Use/Spell
 
 kʼutubʼ:kʼutubʼ              N8 ; ! "medidor" [#ubʼ]
 
@@ -836,6 +844,7 @@ xoltiin:xoltiin              N1 ; ! "sartén" [#]
 yolooj:yolooj                N1 ; ! "plática" [#ooj]
 
 saqrabʼebʼ:saqrabʼebʼ        N1 ; ! "mañana" [#]
+chuch:chuch                  N1 ; ! "fecha" [#]
 
 
 LEXICON Poseídos 
@@ -1162,6 +1171,11 @@ también:también              ADV1 ; ! "también" [#]
 después:después              ADV1 ; ! "después" [#]
 entonces:entonces            ADV1 ; ! "entonces" [#]
 
+juntiir:juntiir              ADV1 ; ! "todos" [#]
+juntiir:juntir               ADV1 ; ! "todos" [#] ! Use/Spell 
+juntiir:juntiiiiir           ADV1 ; ! "todos" [#] ! Use/Spell ! Src/narrative
+
+
 LEXICON TV
 
 :%> TVʼ ;
@@ -1238,6 +1252,7 @@ woʼkot:woʼkot                V-IV ; ! "pasear" [#]
 
 ikʼaj:ikʼaj                  V-IV ; ! "sentir" [#]
 
+
 LEXICON TVʼ
 
 aj:aj                        V-TV ; ! "querer"
@@ -1298,6 +1313,10 @@ kʼamwaj:kʼamwa               V-TV-D ; ! "agradecer" [#j]
 
 yol:yol                      V-TV ; ! "contar" [#iik]
 nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
+may:may                      V-TV ; ! "penar" [#iik]
+
+chep:chep                    V-TV ; ! "" [#]
+cheʼ:cheʼ                    V-TV ; ! "" [#]
 
 LEXICON Irregulares 
 

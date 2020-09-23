@@ -48,4 +48,4 @@ Rules
 "Alternation in imperfective t(i)-"
 %{i%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
             _ %>:+ %{j%}: %>:+ [ ArchiVow: | :Vow ] ;
-
+            t _ %>: %>: Cns: ;
