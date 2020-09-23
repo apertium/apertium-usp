@@ -835,6 +835,8 @@ xojooj:xojooj                N1 ; ! "baile" [#]
 xoltiin:xoltiin              N1 ; ! "sartén" [#]
 yolooj:yolooj                N1 ; ! "plática" [#ooj]
 
+saqrabʼebʼ:saqrabʼebʼ        N1 ; ! "mañana" [#]
+
 
 LEXICON Poseídos 
 
@@ -1119,8 +1121,10 @@ jor:jor                      ADV1 ; ! "ahora" [#]
 mir:mir                      ADV1 ; ! "hace un momento" [#]
 lajor:lajor                  ADV1 ; ! "rápido" [#]
 chik:chik                    ADV1 ; ! "PART" [#]
+ójr:ójr                      ADV1 ; ! "antiguamente" [#]
 
 niri:niri                    ADV1 ; ! "aqui" [#]
+niri:neri                    ADV1 ; ! "aqui" [#] ! Use/Spell ! Src/Xoqoneb'
 ikim:ikim                    ADV1 ; ! "abajo" [#]
 jiʼ:jiʼ                      ADV1 ; ! "allá" [#]
 jili:jili                    ADV1 ; ! "allá" [#]
@@ -1238,6 +1242,7 @@ LEXICON TVʼ
 
 aj:aj                        V-TV ; ! "querer"
 
+kaj:kaj                      V-TV ; ! "dejar"
 chap:chap                    V-TV ; ! "agarrar"
 kʼam:kʼam                    V-TV ; ! "recibir"
 il:il                        V-TV ; ! "ver"
@@ -1289,6 +1294,7 @@ qʼatatej:qʼatate             V-TV-D ; ! "cortar" [#j]
 kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 komsáj:komsá                 V-TV-D ; ! "matar" [#j]
 etamaj:etama                 V-TV-D ; ! "saber" [#j]
+kʼamwaj:kʼamwa               V-TV-D ; ! "agradecer" [#j]
 
 yol:yol                      V-TV ; ! "contar" [#iik]
 nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
