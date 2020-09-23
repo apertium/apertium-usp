@@ -57,6 +57,7 @@ LEXICON Root
                                        Adjetivos ; 
                                        Adverbios ; 
                                        Interyecciones ; 
+                                       Irregulares ; 
                                        Punctuación ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -362,6 +363,7 @@ porque%<cnjsub%>:porque      # ; ! "cuando"
 kwando%<cnjsub%>:kwando      # ; ! "cuando"
 cuando%<cnjsub%>:cuand       # ; ! "cuando"
 cuando%<cnjsub%>:cuando      # ; ! "cuando"
+que%<cnjsub%>:que            # ; ! "que"
 we%<cnjsub%>:we              # ; ! "si"
 i%<cnjcoo%>:i                # ; ! "y"
 y%<cnjcoo%>:y                # ; ! "y"
@@ -1152,6 +1154,9 @@ maay:maay                    ADV1 ; ! "primeras horas de la noche" [#]
 más:más                      ADV1 ; ! "más" [#]
 ya:ya                        ADV1 ; ! "ya" [#]
 pues:pues                    ADV1 ; ! "pues" [#]
+también:también              ADV1 ; ! "también" [#]
+después:después              ADV1 ; ! "después" [#]
+entonces:entonces            ADV1 ; ! "entonces" [#]
 
 LEXICON TV
 
@@ -1243,6 +1248,7 @@ tik:tik                      V-TV ; ! "sembrar"
 bʼay:bʼay                    V-TV ; ! "entrener/demorar" 
 cheqʼ:cheqʼ                  V-TV ; ! "tropezar"
 bʼan:bʼan                    V-TV ; ! "hacer" [#]
+bʼan:an                      V-TV ; ! "hacer" [#] ! Use/Spell
 
 qej:qej                      V-TV ; ! "prestar, alquilar, bajar, llegar" [#iik]
 kʼat:kʼat                    V-TV ; ! "quemar, quemarse" [#iik]
@@ -1282,10 +1288,19 @@ yuq:yuq                      V-TV ; ! "estirar" [#iik]
 qʼatatej:qʼatate             V-TV-D ; ! "cortar" [#j]
 kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 komsáj:komsá                 V-TV-D ; ! "matar" [#j]
+etamaj:etama                 V-TV-D ; ! "saber" [#j]
 
 yol:yol                      V-TV ; ! "contar" [#iik]
 nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
 
+LEXICON Irregulares 
+
+%<o_sg3%>%<s_sg1%>etam%<v%>%<tv%>%<perf%>:w%>etam # ; 
+%<o_sg3%>%<s_sg2%>etam%<v%>%<tv%>%<perf%>:aw%>etam # ; 
+%<o_sg3%>%<s_sg3%>etam%<v%>%<tv%>%<perf%>:r%>etam # ; 
+%<o_sg3%>%<s_pl1%>etam%<v%>%<tv%>%<perf%>:q%>etam # ; 
+!
+!
 
 LEXICON Interyecciones
 

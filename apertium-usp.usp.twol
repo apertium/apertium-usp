@@ -12,7 +12,6 @@ Alphabet
   %{n%}:n %{n%}:w
   %{ː%}:0
   %{y%}:0
-
   %> 
 
 ;
@@ -48,4 +47,5 @@ Rules
 
 "Alternation in imperfective t(i)-"
 %{i%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
+            _ %>:+ %{j%}: %>:+ [ ArchiVow: | :Vow ] ;
 
