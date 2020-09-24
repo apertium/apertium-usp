@@ -483,6 +483,7 @@ bʼi%<adv%>%<dir%>:bʼik # ; ! FIXME: Comprobar + SS ?
 LEXICON Determinantes 
 
 li:li                        DET1 ; ! "el"
+li:l                         DET1 ; ! "el"
 ri:ri                        DET1 ; ! "el"
 re:re                        DET1 ; ! "el"
 man:man                      DET1 ; ! "el"
@@ -882,6 +883,10 @@ chuch:chuch                  N1 ; ! "fecha" [#]
 
 problema:problema            N11 ; ! "problema" [#]
 ceremonia:ceremonia          N11 ; ! "ceremonia" [#]
+bolsa:bolsa                  N11 ; ! "ceremonia" [#]
+año:año                      N11 ; ! "año"
+leña:leña                    N11 ; ! ""
+baño:baño                    N11 ; ! ""
 
 actualidad:actualidad        N13 ; ! ""
 ambición:ambici              N12 ; ! ""
@@ -897,6 +902,7 @@ oportunidad:oportunidad      N13 ; ! ""
 realidad:realidad            N13 ; ! ""
 tradición:tradici            N12 ; ! ""
 
+español:español              N13 ; ! ""
 
 
 LEXICON Poseídos 
@@ -982,6 +988,8 @@ Chʼaaj:Chʼaaj                TOP ; ! "Chaj" [#]
 Choʼkoox:Choʼkoox            TOP ; ! "?" [#]
 Chimeel:Chimeel              TOP ; ! "Chimel" [#]
 
+Uspantán:Uspantán            TOP ; ! ""
+
 
 Koʼr:Koʼr                    COG1 ; 
 Tum:Tum                      COG2 ;
@@ -1019,9 +1027,14 @@ Ajchiku:Ajchiku              COG4 ; ! "Ajchicu" [#]
 Ajaneel:Ajaneel              COG4 ; ! "Ajanel" [#]
 Aaj:Aaj                      COG4 ; ! "Aj" [#]
 
-José:José                    ANTM ; ! ""
-Méndez:Méndez                COG5 ; ! ""
 
+José:José                    ANTM ; ! ""
+Miguel:Miguel                ANTM ; ! ""
+Noé:Noé                      ANTM ; ! ""
+Méndez:Méndez                COG5 ; ! ""
+Peña:Peña                    COG5 ; ! ""
+
+Micaela:Micaela              ANTF ; ! ""
 Treʼs:Treʼs                  ANTF ; ! "Teresa" [#]
 Terees:Terees                ANTF ; ! "Teresa" [#]
 Leexa:Leexa                  ANTF ; ! "Teresa" [#]
@@ -1184,6 +1197,7 @@ mir:mir                      ADV1 ; ! "hace un momento" [#]
 lajor:lajor                  ADV1 ; ! "rápido" [#]
 chik:chik                    ADV1 ; ! "PART" [#]
 ójr:ójr                      ADV1 ; ! "antiguamente" [#]
+ójr:ójer                     ADV1 ; ! "antiguamente" [#] ! Use/Spell
 
 niri:niri                    ADV1 ; ! "aqui" [#]
 niri:neri                    ADV1 ; ! "aqui" [#] ! Use/Spell ! Src/Xoqoneb'
@@ -1229,6 +1243,8 @@ aweces:aweces                ADV1 ; ! "a veces" [#]
 juntiir:juntiir              ADV1 ; ! "todos" [#]
 juntiir:juntir               ADV1 ; ! "todos" [#] ! Use/Spell 
 juntiir:juntiiiiir           ADV1 ; ! "todos" [#] ! Use/Spell ! Src/narrative
+
+kʼii:kʼii                    ADV1 ; ! "mucho" [#]
 
 
 LEXICON TV
@@ -1399,6 +1415,8 @@ eeeeeh%<ij%>:eeeeeh          # ;
 aaaaah%<ij%>:aaaaah          # ;
 aah%<ij%>:aah                # ;
 aaa%<ij%>:aaa                # ;
+aaah%<ij%>:aaah              # ; 
+aaaah%<ij%>:aaaah            # ; 
 
 LEXICON Punctuación
 
