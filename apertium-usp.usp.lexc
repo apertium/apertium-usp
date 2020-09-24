@@ -257,6 +257,16 @@ LEXICON N11
 %<n%>%<pl%>:%>s                                              Sufijos1 ; 
 %<n%>%<pl%>:%>s                                              Sufijos2 ; 
 
+LEXICON N12
+! FIXME: This is terrible
+
+%<n%>:ón%>                                                   Sufijos1 ; 
+%<n%>:ón%>                                                   Sufijos2 ; 
+%<n%>:ón%>                                                   Sufijos4 ; 
+%<n%>%<pl%>:on%>es                                           Sufijos1 ; 
+%<n%>%<pl%>:on%>es                                           Sufijos2 ; 
+
+
 
 LEXICON REL
 
@@ -862,6 +872,13 @@ saqrabʼebʼ:saqrabʼebʼ        N1 ; ! "mañana" [#]
 chuch:chuch                  N1 ; ! "fecha" [#]
 
 problema:problema            N11 ; ! "problema" [#]
+ceremonia:ceremonia          N11 ; ! "ceremonia" [#]
+
+tradición:tradici            N12 ; ! ""
+corrupción:corrupci          N12 ; ! ""
+conversación:conversaci      N12 ; ! ""
+condición:condici            N12 ; ! ""
+ambición:ambici              N12 ; ! ""
 
 
 LEXICON Poseídos 
@@ -997,6 +1014,7 @@ Liip:Liip                    ANTM ; ! "Felipe" [#]
 Teekʼ:Teekʼ                  ANTM ; ! "Diego" [#]
 Teek:Teek                    ANTM ; ! "Diego" [#]
 Leandro:Leandro              ANTM ; ! "" [#]
+Antonio:Antonio              ANTM ; ! "" [#]
 
 Liin:Liin                    ANTF ; ! "Catarina" [#]
 Paal:Paal                    ANTM ; ! "Gaspar" [#]
@@ -1187,6 +1205,8 @@ pues:pues                    ADV1 ; ! "pues" [#]
 también:también              ADV1 ; ! "también" [#]
 después:después              ADV1 ; ! "después" [#]
 entonces:entonces            ADV1 ; ! "entonces" [#]
+aweces:aweces                ADV1 ; ! "a veces" [#]
+
 
 juntiir:juntiir              ADV1 ; ! "todos" [#]
 juntiir:juntir               ADV1 ; ! "todos" [#] ! Use/Spell 
@@ -1340,6 +1360,7 @@ cheʼ:cheʼ                    V-TV ; ! "" [#]
 bʼij:bʼij                    V-TV ; ! "" [#]
 
 kol:kol                      V-TV ; ! "" [#]
+tzaq:tzaq                    V-TV ; ! "" [#]
 
 LEXICON Irregulares 
 
@@ -1354,6 +1375,9 @@ LEXICON Interyecciones
 
 eh%<ij%>:eh                  # ;
 eeeh%<ij%>:eeeh              # ;
+aaaaah%<ij%>:aaaaah          # ;
+aah%<ij%>:aah                # ;
+aaa%<ij%>:aaa                # ;
 
 LEXICON Punctuación
 
