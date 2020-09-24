@@ -266,6 +266,15 @@ LEXICON N12
 %<n%>%<pl%>:on%>es                                           Sufijos1 ; 
 %<n%>%<pl%>:on%>es                                           Sufijos2 ; 
 
+LEXICON N13
+! FIXME: This is terrible
+
+%<n%>:%>                                                     Sufijos1 ; 
+%<n%>:%>                                                     Sufijos2 ; 
+%<n%>:%>                                                     Sufijos4 ; 
+%<n%>%<pl%>:%>es                                             Sufijos1 ; 
+%<n%>%<pl%>:%>es                                             Sufijos2 ; 
+
 
 
 LEXICON REL
@@ -874,11 +883,20 @@ chuch:chuch                  N1 ; ! "fecha" [#]
 problema:problema            N11 ; ! "problema" [#]
 ceremonia:ceremonia          N11 ; ! "ceremonia" [#]
 
-tradición:tradici            N12 ; ! ""
-corrupción:corrupci          N12 ; ! ""
-conversación:conversaci      N12 ; ! ""
-condición:condici            N12 ; ! ""
+actualidad:actualidad        N13 ; ! ""
 ambición:ambici              N12 ; ! ""
+autoridad:autoridad          N13 ; ! ""
+cantidad:cantidad            N13 ; ! ""
+comunidad:comunidad          N13 ; ! ""
+condición:condici            N12 ; ! ""
+conversación:conversaci      N12 ; ! ""
+corrupción:corrupci          N12 ; ! ""
+navidad:navidad              N13 ; ! ""
+necesidad:necesidad          N13 ; ! ""
+oportunidad:oportunidad      N13 ; ! ""
+realidad:realidad            N13 ; ! ""
+tradición:tradici            N12 ; ! ""
+
 
 
 LEXICON Poseídos 
@@ -1374,7 +1392,10 @@ LEXICON Irregulares
 LEXICON Interyecciones
 
 eh%<ij%>:eh                  # ;
+eeh%<ij%>:eeh                # ;
 eeeh%<ij%>:eeeh              # ;
+eeeeh%<ij%>:eeeeh            # ;
+eeeeeh%<ij%>:eeeeeh          # ;
 aaaaah%<ij%>:aaaaah          # ;
 aah%<ij%>:aah                # ;
 aaa%<ij%>:aaa                # ;
