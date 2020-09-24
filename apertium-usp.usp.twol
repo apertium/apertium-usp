@@ -45,7 +45,7 @@ Rules
 %{ː%}:Vx <=> %>:+ Cns+ Vx _ Cns+ ; 
           where Vx in ( a e i o u ) ;
 
-"Alternation in imperfective t(i)-"
-%{i%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
-            _ %>:+ %{j%}: %>:+ [ ArchiVow: | :Vow ] ;
-            t _ %>: %>: Cns: ;
+!"Alternation in imperfective t(i)-"
+!%{i%}:0 <=> _ %>:+ [ ArchiVow: | :Vow ] ;
+!            _ %>:+ %{j%}: %>:+ [ ArchiVow: | :Vow ] ;
+!            t _ %>: %>: Cns: ;

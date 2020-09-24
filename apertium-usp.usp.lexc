@@ -130,6 +130,12 @@ LEXICON Sufijos3
 @D.Poss@:@D.Poss@                                            # ;
 @R.Poss.Pl@:@R.Poss.Pl@%>aq                                  # ;
 
+LEXICON Sufijos4
+
+@D.Poss@:@D.Poss@                                            # ;
+@R.Poss.Pl@:@R.Poss.Pl@%>q                                   # ;
+
+
 LEXICON A-IV-12
 
 %<s_sg1%>:%{í%}%{n%}%>                                       IV ;
@@ -241,6 +247,15 @@ LEXICON N10
 
 %<n%>:                                                       Sufijos2 ; 
 %<n%>:%>il                                                   Sufijos3 ; 
+
+LEXICON N11 
+! FIXME: This is terrible
+
+%<n%>:%>                                                     Sufijos1 ; 
+%<n%>:%>                                                     Sufijos2 ; 
+%<n%>:%>                                                     Sufijos4 ; 
+%<n%>%<pl%>:%>s                                              Sufijos1 ; 
+%<n%>%<pl%>:%>s                                              Sufijos2 ; 
 
 
 LEXICON REL
@@ -846,6 +861,8 @@ yolooj:yolooj                N1 ; ! "plática" [#ooj]
 saqrabʼebʼ:saqrabʼebʼ        N1 ; ! "mañana" [#]
 chuch:chuch                  N1 ; ! "fecha" [#]
 
+problema:problema            N11 ; ! "problema" [#]
+
 
 LEXICON Poseídos 
 
@@ -1191,7 +1208,8 @@ kwin:kwin                    V-IV ; ! "poder" [#]
 war:war                      V-IV ; ! "dormir"
 wiʼn:wiʼn                    V-IV ; ! "comer"
 oqʼ:oqʼ                      V-IV ; ! "llorar"
-taw:taw                      V-IV ; ! "llegar allá"
+taaw:taw                     V-IV ; ! "llegar allá"
+taaw:taaw                    V-IV ; ! "llegar allá"
 cheʼ:cheʼ                    V-IV ; ! "decir" [#]
 peʼ:peʼ                      V-IV ; ! "venir"
 peʼ:pe                       V-IV ; ! "venir"
@@ -1205,6 +1223,7 @@ pax:pax                      V-IV ; ! "estallar" [#iik]
 pet:pet                      V-IV ; ! "venir" [#iik]
 
 bʼee:bʼee                    V-IV ; ! "ir" [#]
+bʼee:bʼe                     V-IV ; ! "ir" [#] ! Use/Spell
 bʼooq:bʼooq                  V-IV ; ! "ir" [#]
 chaʼ:chaʼ                    V-IV ; ! "decir" [#]
 chiliil:chiliil              V-IV ; ! "desgranable" [#]
@@ -1320,6 +1339,8 @@ chep:chep                    V-TV ; ! "" [#]
 cheʼ:cheʼ                    V-TV ; ! "" [#]
 bʼij:bʼij                    V-TV ; ! "" [#]
 
+kol:kol                      V-TV ; ! "" [#]
+
 LEXICON Irregulares 
 
 %<o_sg3%>%<s_sg1%>etam%<v%>%<tv%>%<perf%>:w%>etam # ; 
@@ -1332,6 +1353,7 @@ LEXICON Irregulares
 LEXICON Interyecciones
 
 eh%<ij%>:eh                  # ;
+eeeh%<ij%>:eeeh              # ;
 
 LEXICON Punctuación
 
