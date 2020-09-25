@@ -1605,6 +1605,9 @@ yoloj:yoloj           N1 ; ! "" ! Src/Palmer
 yoos:yoos           N1 ; ! "" ! Src/Palmer
 yugo:yugo           N1 ; ! "" ! Src/Palmer
 
+uspanteko:uspanteko N1 ; ! ""
+kʼicheʼ:kiche N1 ; ! ""
+
 !Chipaajaʼ:Chipaajaʼ N1 ; ! "" ! Src/Palmer
 !Chipaaj:Chipaaj N1 ; ! "" ! Src/Palmer
 !Dyoos:Dyoos N1 ; ! "" ! Src/Palmer
@@ -2135,6 +2138,36 @@ ook:ook                      V-IV ; ! ""
 ook:ok                       V-IV ; ! ""
 ook:ʼook                     V-IV ; ! ""
 
+ta:ta V-IV ; ! "" ! Src/Palmer
+tzaj:tzaj V-IV ; ! "" ! Src/Palmer
+qʼaj:qʼaj V-IV ; ! "" ! Src/Palmer
+qeej:qeej V-IV ; ! "" ! Src/Palmer
+kom:kom V-IV ; ! "" ! Src/Palmer
+kaan:kaan V-IV ; ! "" ! Src/Palmer
+aqʼan:aqʼan V-IV ; ! "" ! Src/Palmer
+kwiin:kwiin V-IV ; ! "" ! Src/Palmer
+kʼomon:kʼomon V-IV ; ! "" ! Src/Palmer
+kun:kun V-IV ; ! "" ! Src/Palmer
+natun:natun V-IV ; ! "" ! Src/Palmer
+yuuq:yuuq V-IV ; ! "" ! Src/Palmer
+wer:wer V-IV ; ! "" ! Src/Palmer
+peet:peet V-IV ; ! "" ! Src/Palmer
+yu:yu V-IV ; ! "" ! Src/Palmer
+w:w V-IV ; ! "" ! Src/Palmer
+chʼaw:chʼaw V-IV ; ! "" ! Src/Palmer
+yolow:yolow V-IV ; ! "" ! Src/Palmer
+qʼaax:qʼaax V-IV ; ! "" ! Src/Palmer
+wux:wux V-IV ; ! "" ! Src/Palmer
+waʼx:waʼx V-IV ; ! "" ! Src/Palmer
+kʼiiy:kʼiiy V-IV ; ! "" ! Src/Palmer
+kuy:kuy V-IV ; ! "" ! Src/Palmer
+kʼy:kʼy V-IV ; ! "" ! Src/Palmer
+tzibʼ:tzibʼ V-IV ; ! "" ! Src/Palmer
+kʼisiʼ:kʼisiʼ V-IV ; ! "" ! Src/Palmer
+kʼiʼ:kʼiʼ V-IV ; ! "" ! Src/Palmer
+yuʼ:yuʼ V-IV ; ! "" ! Src/Palmer
+
+
 LEXICON TVʼ
 
 aj:aj                        V-TV ; ! "querer"
@@ -2220,6 +2253,59 @@ qʼa:qʼa                      V-TV ; ! ""
 sach:sach                    V-TV ; ! "perder"
 tzʼiibʼan:tzʼiibʼan          V-TV ; ! ""
 uq:uq                        V-TV ; ! ""
+
+taa:taa V-TV ; ! "" ! Src/Palmer
+cha:cha V-TV ; ! "" ! Src/Palmer
+ta:ta V-TV ; ! "" ! Src/Palmer
+tebʼa:tebʼa V-TV ; ! "" ! Src/Palmer
+ene:ene V-TV ; ! "" ! Src/Palmer
+if:if V-TV ; ! "" ! Src/Palmer
+tzach:tzach V-TV ; ! "" ! Src/Palmer
+latunch:latunch V-TV ; ! "" ! Src/Palmer
+
+kʼamwaaj:kʼamwaaj V-TV ; ! "" ! Src/Palmer
+mulaj:mulaj V-TV ; ! "" ! Src/Palmer
+yaj:yaj V-TV ; ! "" ! Src/Palmer
+chʼaj:chʼaj V-TV ; ! "" ! Src/Palmer
+iij:iij V-TV ; ! "" ! Src/Palmer
+tiij:tiij V-TV ; ! "" ! Src/Palmer
+qatiij:qatiij V-TV ; ! "" ! Src/Palmer
+sikʼiij:sikʼiij V-TV ; ! "" ! Src/Palmer
+itij:itij V-TV ; ! "" ! Src/Palmer
+toj:toj V-TV ; ! "" ! Src/Palmer
+tʼoj:tʼoj V-TV ; ! "" ! Src/Palmer
+jurchuchuj:jurchuchuj V-TV ; ! "" ! Src/Palmer
+tʼoʼj:tʼoʼj V-TV ; ! "" ! Src/Palmer
+
+tzak:tzak V-TV ; ! "" ! Src/Palmer
+tzek:tzek V-TV ; ! "" ! Src/Palmer
+yool:yool V-TV ; ! "" ! Src/Palmer
+kʼol:kʼol V-TV ; ! "" ! Src/Palmer
+eʼl:eʼl V-TV ; ! "" ! Src/Palmer
+kʼom:kʼom V-TV ; ! "" ! Src/Palmer
+raqin:raqin V-TV ; ! "" ! Src/Palmer
+tukxin:tukxin V-TV ; ! "" ! Src/Palmer
+latun:latun V-TV ; ! "" ! Src/Palmer
+natun:natun V-TV ; ! "" ! Src/Palmer
+chop:chop V-TV ; ! "" ! Src/Palmer
+jop:jop V-TV ; ! "" ! Src/Palmer
+taq:taq V-TV ; ! "" ! Src/Palmer
+tzq:tzq V-TV ; ! "" ! Src/Palmer
+kir:kir V-TV ; ! "" ! Src/Palmer
+tor:tor V-TV ; ! "" ! Src/Palmer
+kʼiis:kʼiis V-TV ; ! "" ! Src/Palmer
+pis:pis V-TV ; ! "" ! Src/Palmer
+jut:jut V-TV ; ! "" ! Src/Palmer
+putz:putz V-TV ; ! "" ! Src/Palmer
+aʼ:aʼ V-TV ; ! "" ! Src/Palmer
+naʼ:naʼ V-TV ; ! "" ! Src/Palmer
+meʼ:meʼ V-TV ; ! "" ! Src/Palmer
+teʼ:teʼ V-TV ; ! "" ! Src/Palmer
+qʼiʼ:qʼiʼ V-TV ; ! "" ! Src/Palmer
+miqʼ:miqʼ V-TV ; ! "" ! Src/Palmer
+jetʼ:jetʼ V-TV ; ! "" ! Src/Palmer
+mutzʼ:mutzʼ V-TV ; ! "" ! Src/Palmer
+
 
 
 LEXICON Irregulares 
