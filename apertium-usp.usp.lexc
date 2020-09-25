@@ -260,10 +260,15 @@ LEXICON V-TV-R-VAL
 %<pass%>:                                                    # ; ! 
 %<pass%>%<stat%>:%>saj                                       # ; !
 
+LEXICON V-TV-R-NONFIN
+
+%<inf%>:%>ik                                                 # ;
+
 LEXICON V-TV 
 
 %<v%>%<tv%>:                                                 SS-TV ;
 %<v%>%<tv%>:                                                 V-TV-R-VAL ;
+%<v%>%<tv%>:                                                 V-TV-R-NONFIN ;
 %<v%>%<tv%>:                                                 K ;
 
 LEXICON V-TV-D
@@ -2199,6 +2204,7 @@ cheʼ:cheʼ                    V-TV ; ! "" [#]
 bʼij:bʼij                    V-TV ; ! "" [#]
 bʼij:ij                      V-TV ; ! "" [#] ! Use/Spell
 bʼij:iʼj                     V-TV ; ! "" [#] ! Use/Spell
+bʼij:bʼi                     V-TV ; ! "" [#] ! Use/Spell
 
 kol:kol                      V-TV ; ! "" [#]
 tzaq:tzaq                    V-TV ; ! "" [#]
@@ -2210,6 +2216,7 @@ koj:koj                      V-TV ; ! ""
 qʼa:qʼa                      V-TV ; ! ""
 sach:sach                    V-TV ; ! "perder"
 tzʼiibʼan:tzʼiibʼan          V-TV ; ! ""
+uq:uq                        V-TV ; ! ""
 
 
 LEXICON Irregulares 
@@ -2222,6 +2229,11 @@ LEXICON Irregulares
 !
 ! FIXME: Probablemente eso es mejor simplemente arreglar en el corpus
 kitaʼ%<neg%>+%<impf%>%<o_sg3%>%<s_sg3%>qʼa%<v%>%<tv%>%<pass%>%<stat%>:kitaʼ%>ti%>qʼa%>saj # ;
+!
+!
+%<impf%>%<s_sg1%>aj%<v%>%<iv%>:ch%>w%>aj # ; 
+%<impf%>%<s_sg2%>aj%<v%>%<iv%>:ch%>aw%>aj # ; 
+%<impf%>%<s_pl1%>aj%<v%>%<iv%>:ch%>q%>aj # ; 
 
 LEXICON Interyecciones
 
