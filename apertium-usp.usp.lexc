@@ -9,6 +9,64 @@ Multichar_Symbols
 %<adv%>                                ! Adverbio
 %<pr%>                                 ! Preposición
 %<ij%>                                 ! Interyección
+%<v%>                                  ! Verbo
+%<aux%>                                !
+%<barb%>                               !
+%<clf%>                                !
+%<cnjcoo%>                             !
+%<cnjsub%>                             !
+%<part%>                               !
+%<emph%>                               !
+%<mark%>                               !
+%<qst%>                                !
+
+%<iv%>                                 !
+%<tv%>                                 !
+
+%<dem%>                                !
+%<pers%>                               !
+%<itg%>                                !
+%<prn%>                                !
+%<pro%>                                !
+%<qnt%>                                !
+
+%<rel%>                                !
+
+%<m%>                                  !
+%<f%>                                  !
+
+%<dim%>                                !
+%<dir%>                                !
+%<dist%>                               !
+%<gen%>                                !
+%<neg%>                                !
+%<pass%>                               !
+%<stat%>                               !
+   
+%<al%>                                 !
+%<ant%>                                !
+%<top%>                                !
+
+%<sg%>                                 !
+%<pl%>                                 !
+
+%<p1%>                                 !
+%<p2%>                                 !
+%<p3%>                                 !
+
+%<s_sg1%>                              !
+%<s_sg2%>                              !
+%<s_sg3%>                              !
+%<s_pl1%>                              !
+%<s_pl2%>                              !
+%<s_pl3%>                              !
+
+%<o_sg1%>                              !
+%<o_sg2%>                              !
+%<o_sg3%>                              !
+%<o_pl1%>                              !
+%<o_pl2%>                              !
+%<o_pl3%>                              !
 
 %<cog%>                                ! Cognomen
 
@@ -18,11 +76,20 @@ Multichar_Symbols
 %<impf%>                               ! Imperfectivo (Incompletivo)
 
 %<px1sg%>                              ! Posesivo de 1ra persona singular
-%<px2sg%>
-%<px3sg%>
-%<px1pl%>
-%<px2pl%>
-%<px3pl%>
+%<px2sg%>                              !
+%<px3sg%>                              !
+%<px1pl%>                              !
+%<px2pl%>                              !
+%<px3pl%>                              !
+
+%<cm%>                                 !
+%<guio%>                               !
+%<lpar%>                               !
+%<lquest%>                             !
+%<lquot%>                              !
+%<rpar%>                               !
+%<rquot%>                              !
+%<sent%>                               !
 
 %{w%}                                  ! w / 0
 %{n%}                                  ! n / w 
