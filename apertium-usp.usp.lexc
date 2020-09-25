@@ -1639,6 +1639,14 @@ kʼicheʼ:kiche N1 ; ! ""
 !Uchoch:Uchoch N1 ; ! "" ! Src/Palmer
 !Yaak:Yaak N1 ; ! "" ! Src/Palmer
 
+familia:familia N1 ; ! ""
+papá:papá N1 ; ! ""
+tío:tío N11 ; ! ""
+semilla:semilla N1 ; ! ""
+historia:historia N1 ; ! ""
+cuñado:cuñado N1 ; ! ""
+
+
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
