@@ -342,6 +342,11 @@ LEXICON TOP
 
 %<np%>%<top%>:                                               # ;
 
+LEXICON AL
+
+%<np%>%<al%>:                                                # ;
+
+
 LEXICON ADV1
 
 %<adv%>:                                                     # ; 
@@ -927,6 +932,7 @@ bolsa:bolsa                  N11 ; ! "ceremonia" [#]
 año:año                      N11 ; ! "año"
 leña:leña                    N11 ; ! ""
 baño:baño                    N11 ; ! ""
+pimienta:pimienta            N11 ; ! ""
 
 verdad:verdad                N13 ; ! ""
 actualidad:actualidad        N13 ; ! ""
@@ -987,6 +993,10 @@ xoot:xoot                    N1 ; ! ""
 
 iikʼ:iikʼ                    N1 ; ! ""
 
+kumbʼil:kumbʼil              N1 ; ! ""
+kumbʼil:kumbʼal              N1 ; ! ""
+kumbʼil:kumbʼl               N1 ; ! ""
+
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
@@ -1031,6 +1041,7 @@ ikʼil:ikʼil                  REL ; ! "?"
 ikʼil:%{y%}kʼil              REL ; ! "?"
 ikʼil:%{y%}kʼi               REL ; ! "?"
 ikʼil:ikʼiil                 REL ; ! "SR" [-#]
+ikʼil:ikiil                  REL ; ! "SR" [-#]
 ikʼil:%{y%}kʼiil             REL ; ! "SR" [-#]
 ikʼil:ikʼi                   REL ; ! "?"
 
@@ -1211,7 +1222,10 @@ Vicente:Vicente              ANTM ; ! ""
 Xwaan:Xwaan                  ANTM ; ! ""
 Yesika:Yesika                ANTF ; ! ""
 
-
+COVID:COVID                  AL ; ! ""
+COVID%-19:COVID%-19          AL ; ! ""
+nCOV:nCOV                    AL ; ! ""
+2019%-nCOV:2019%-nCOV        AL ; ! ""
 
 
 LEXICON Adjetivos 
@@ -1411,6 +1425,7 @@ taaw:taaw                    V-IV ; ! "llegar allá"
 cheʼ:cheʼ                    V-IV ; ! "decir" [#]
 peʼ:peʼ                      V-IV ; ! "venir"
 peʼ:pe                       V-IV ; ! "venir"
+peʼ:pee                      V-IV ; ! "venir"
 
 almaj:almaj                  V-IV ; ! "escaparse" [#iik]
 bʼen:bʼen                    V-IV ; ! "caminar" [#iik]
@@ -1535,6 +1550,7 @@ etamaj:etama                 V-TV-D ; ! "saber" [#j]
 kʼamwaj:kʼamwa               V-TV-D ; ! "agradecer" [#j]
 
 kʼayaj:kʼaya                 V-TV-D ; ! ""
+kunaj:kuna                   V-TV-D ; ! ""
 
 yol:yol                      V-TV ; ! "contar" [#iik]
 nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
@@ -1544,6 +1560,7 @@ chep:chep                    V-TV ; ! "" [#]
 cheʼ:cheʼ                    V-TV ; ! "" [#]
 bʼij:bʼij                    V-TV ; ! "" [#]
 bʼij:ij                      V-TV ; ! "" [#] ! Use/Spell
+bʼij:iʼj                     V-TV ; ! "" [#] ! Use/Spell
 
 kol:kol                      V-TV ; ! "" [#]
 tzaq:tzaq                    V-TV ; ! "" [#]
