@@ -39,6 +39,7 @@ Multichar_Symbols
 @P.Poss.Pl@                            !
 @R.Poss.Pl@                            !
 
+%-
 %>
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -470,11 +471,14 @@ chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! ""
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" 
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>qe    # ;
 chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:ch%>aw%>ech%>aq # ;  ! "" 
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:ch%>aw%>ch%>aq # ;  ! "" 
 
 chi%<pr%>%+%<px3sg%>xoʼl%<n%>%<rel%>:chi%>j%>xoʼl # ; ! ""
 
 chi%<pr%>%+%<px1sg%>iij%<n%>%<rel%>:ch%>w%>ij # ; ! ""
+chi%<pr%>%+%<px2sg%>iij%<n%>%<rel%>:ch%>aw%>ij # ; ! ""
 chi%<pr%>%+%<px3sg%>iij%<n%>%<rel%>:chi%>r%>ij # ; ! ""
+chi%<pr%>%+%<px2pl%>iij%<n%>%<rel%>:ch%>aw%>ij%>aq # ; ! ""
 
 chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:chqáwch # ; ! ""
 chi%<pr%>%+%<px1pl%>wach%<n%>%<rel%>:chiqáwch # ; ! "" ! Use/Spell
@@ -997,6 +1001,9 @@ kumbʼil:kumbʼil              N1 ; ! ""
 kumbʼil:kumbʼal              N1 ; ! ""
 kumbʼil:kumbʼl               N1 ; ! ""
 
+tyoʼjiil:tyoʼjiil            N1 ; ! ""
+choqʼbʼ:choqʼbʼ              N1 ; ! ""
+
 LEXICON Poseídos 
 
 iij:iij                      N7 ; ! "espalda" [-#]
@@ -1225,6 +1232,9 @@ Yesika:Yesika                ANTF ; ! ""
 COVID:COVID                  AL ; ! ""
 COVID%-19:COVID%-19          AL ; ! ""
 nCOV:nCOV                    AL ; ! ""
+5G:5G                        AL ; ! ""
+OMS:OMS                      AL ; ! ""
+Coronavirus:Coronavirus      AL ; ! ""
 2019%-nCOV:2019%-nCOV        AL ; ! ""
 
 
@@ -1391,6 +1401,8 @@ entonces:entonces            ADV1 ; ! "entonces" [#]
 entonces:entoces             ADV1 ; ! "entonces" [#] ! Use/Spell
 aweces:aweces                ADV1 ; ! "a veces" [#]
 
+oor:oor                      ADV1 ; ! ""
+
 
 ! FIXME: Comprobar DET?
 juntiir:juntiir              ADV1 ; ! "todos" [#]
@@ -1403,6 +1415,7 @@ jlon:jlon                    ADV1 ; ! "" [#]
 laqʼabʼ:laqʼabʼ              ADV1 ; ! "" [#]
 pur:pur                      ADV1 ; ! "" [#]
 toces:toces                  ADV1 ; ! "" [#]
+nojel:nojel                  ADV1 ; ! ""
 
 
 LEXICON TV
@@ -1488,6 +1501,7 @@ el:el                        V-IV ; ! ""
 
 ook:ook                      V-IV ; ! ""
 ook:ok                       V-IV ; ! ""
+ook:ʼook                     V-IV ; ! ""
 
 LEXICON TVʼ
 
@@ -1569,6 +1583,7 @@ qa:qa                        V-TV ; ! "cargar" [#]
 kʼomo:kʼomo                  V-TV ; ! "" ! FIXME: Comprobar tv/iv
 tij:tij                      V-TV ; ! ""
 koj:koj                      V-TV ; ! ""
+qʼa:qʼa                      V-TV ; ! ""
 sach:sach                    V-TV ; ! "perder"
 tzʼiibʼan:tzʼiibʼan          V-TV ; ! ""
 
@@ -1581,6 +1596,8 @@ LEXICON Irregulares
 %<o_sg3%>%<s_pl1%>etam%<v%>%<tv%>%<perf%>:q%>etam # ; 
 !
 !
+! FIXME: Probablemente eso es mejor simplemente arreglar en el corpus
+kitaʼ%<neg%>+%<impf%>%<o_sg3%>%<s_sg3%>qʼa%<v%>%<tv%>%<pass%>%<stat%>:kitaʼ%>ti%>qʼa%>saj # ;
 
 LEXICON Interyecciones
 
