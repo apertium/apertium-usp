@@ -678,6 +678,7 @@ yaaj:yaaj                    N1 ; ! "enfermo" [#]
 usum:usum                    N1 ; ! "mosquito" [#]
 teew:teew                    N1 ; ! "aire" [#]
 wunaq:wunaq                  N1 ; ! "hombre" [#]
+wunaq:winaq                  N1 ; ! "hombre" [#] ! Use/Spell
 junaabʼ:junabʼ               N1 ; ! "año" [#] 
 junaabʼ:junaabʼ              N1 ; ! "año" [#]
 ánim¹:anim                   N1 ; ! "corazón" [#]
@@ -1028,6 +1029,7 @@ año:año                      N11 ; ! "año"
 leña:leña                    N11 ; ! ""
 baño:baño                    N11 ; ! ""
 pimienta:pimienta            N11 ; ! ""
+convivencia:convivencia      N11 ; ! ""
 
 verdad:verdad                N13 ; ! ""
 actualidad:actualidad        N13 ; ! ""
@@ -1258,6 +1260,7 @@ kaaxaa:kaaxaa                N1 ; ! "" ! Src/Palmer
 kabʼal:kabʼal                N1 ; ! "" ! Src/Palmer
 kafee:kafee                  N1 ; ! "" ! Src/Palmer
 kafee:kafe                   N1 ; ! "" ! Src/Palmer
+kafee:café                   N1 ; ! "" ! Use/Spell ! Src/Narrative
 kajetiy:kajetiy              N1 ; ! "" ! Src/Palmer
 kampo:kampo                  N1 ; ! "" ! Src/Palmer
 kanal:kanal                  N1 ; ! "" ! Src/Palmer
@@ -1278,6 +1281,10 @@ kastig:kastig                N1 ; ! "" ! Src/Palmer
 kastiy:kastiy                N1 ; ! "" ! Src/Palmer
 kaxlan:kaxlan                N1 ; ! "" ! Src/Palmer
 káxlanwa:káxlanwa            N1 ; ! "" ! Src/Palmer
+káxlanwa:kxlnwaa             N1 ; ! "" ! Use/Spell ! Src/Narrative
+káxlanwa:kaxlanwaa           N1 ; ! "" ! Use/Spell ! Src/Narrative
+kixlanwa:kixlanwa            N1 ; ! "" ! Src/Palmer
+kíxlinwa:kíxlinwa            N1 ; ! "" ! Src/Palmer
 kaʼ:kaʼ                      N1 ; ! "" ! Src/Palmer
 keej:keej                    N1 ; ! "" ! Src/Palmer
 keqʼe:keqʼe                  N1 ; ! "" ! Src/Palmer
@@ -1290,8 +1297,6 @@ kibʼ:kibʼ                    N1 ; ! "" ! Src/Palmer
 kikʼ:kikʼ                    N1 ; ! "" ! Src/Palmer
 kirneer:kirneer              N1 ; ! "" ! Src/Palmer
 kirneer:kirner               N1 ; ! "" ! Src/Palmer
-kixlanwa:kixlanwa            N1 ; ! "" ! Src/Palmer
-kíxlinwa:kíxlinwa            N1 ; ! "" ! Src/Palmer
 kiyej:kiyej                  N1 ; ! "" ! Src/Palmer
 klabo:klabo                  N1 ; ! "" ! Src/Palmer
 kofree:kofree                N1 ; ! "" ! Src/Palmer
@@ -1639,12 +1644,16 @@ kʼicheʼ:kiche N1 ; ! ""
 !Uchoch:Uchoch N1 ; ! "" ! Src/Palmer
 !Yaak:Yaak N1 ; ! "" ! Src/Palmer
 
-familia:familia N1 ; ! ""
-papá:papá N1 ; ! ""
-tío:tío N11 ; ! ""
-semilla:semilla N1 ; ! ""
-historia:historia N1 ; ! ""
-cuñado:cuñado N1 ; ! ""
+familia:familia              N1 ; ! ""
+papá:papá                    N1 ; ! ""
+vida:vida                    N1 ; ! ""
+tío:tío                      N11 ; ! ""
+semilla:semilla              N1 ; ! ""
+historia:historia            N1 ; ! ""
+cuñado:cuñado                N1 ; ! ""
+vecino:vecino                N11 ; ! ""
+
+chʼabʼal:chʼabʼal            N1 ; ! ""
 
 
 LEXICON Poseídos 
