@@ -185,9 +185,17 @@ LEXICON V-IV
 %<v%>%<iv%>:                                                 SS-IV ;
 %<v%>%<iv%>:                                                 K ;
 
+LEXICON V-TV-R-VAL
+
+%<pass%>:                                                    SS-IV ; ! 
+%<pass%>%<stat%>:%>saj                                       SS-IV ; !
+%<pass%>:                                                    # ; ! 
+%<pass%>%<stat%>:%>saj                                       # ; !
+
 LEXICON V-TV 
 
 %<v%>%<tv%>:                                                 SS-TV ;
+%<v%>%<tv%>:                                                 V-TV-R-VAL ;
 %<v%>%<tv%>:                                                 K ;
 
 LEXICON V-TV-D
@@ -421,6 +429,7 @@ chak%<part%>:chak            # ; ! ""
 
 wi%<part%>:wi                # ; ! "PART" [#]
 wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
+wiʼ%<part%>+w%<mark%>:wiʼ%>w # ; ! "" ! FIXME: Comprobar
 kʼu%<part%>:kʼu              # ; ! "PART" [#]
 mat%<part%>:mat              # ; ! "PART" [#]
 
@@ -1409,6 +1418,9 @@ ikʼaj:ikʼaj                  V-IV ; ! "sentir" [#]
 
 el:el                        V-IV ; ! ""
 
+ook:ook                      V-IV ; ! ""
+ook:ok                       V-IV ; ! ""
+
 LEXICON TVʼ
 
 aj:aj                        V-TV ; ! "querer"
@@ -1459,6 +1471,7 @@ tix:tix                      V-TV ; ! "regar" [#iik]
 tok:tok                      V-TV ; ! "buscarlo" [#iik]
 tʼok:tʼok                    V-TV ; ! "apretar" [#iik]
 yeʼ:yeʼ                      V-TV ; ! "dar" [#iik]
+yaʼ:yaʼ                      V-TV ; ! "dar" [#iik]
 yuq:yuq                      V-TV ; ! "estirar" [#iik]
 
 
@@ -1467,6 +1480,8 @@ kamsáj:kamsá                 V-TV-D ; ! "matar" [#j]
 komsáj:komsá                 V-TV-D ; ! "matar" [#j]
 etamaj:etama                 V-TV-D ; ! "saber" [#j]
 kʼamwaj:kʼamwa               V-TV-D ; ! "agradecer" [#j]
+
+kʼayaj:kʼaya                 V-TV-D ; ! ""
 
 yol:yol                      V-TV ; ! "contar" [#iik]
 nukʼ:nukʼ                    V-TV ; ! "unir" [#iik]
@@ -1482,6 +1497,9 @@ tzaq:tzaq                    V-TV ; ! "" [#]
 qa:qa                        V-TV ; ! "cargar" [#]
 
 kʼomo:kʼomo                  V-TV ; ! "" ! FIXME: Comprobar tv/iv
+tij:tij                      V-TV ; ! ""
+koj:koj                      V-TV ; ! ""
+sach:sach                    V-TV ; ! "perder"
 
 
 LEXICON Irregulares 
