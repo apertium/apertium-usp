@@ -108,7 +108,7 @@ LEXICON K
 
 LEXICON SS-IV ! TODO: Flags
 
-%+ik%<mark%>:%>ik                                            # ;
+%+ik%<mark%>:%>%{i%}k                                            # ;
 %+oq%<mark%>:%>oq                                            # ;
 
 LEXICON SS-TV ! TODO: Flags
@@ -294,6 +294,10 @@ LEXICON NUM2
 
 %<num%>:                                                     # ; 
 
+LEXICON NUM3
+
+%<num%>%<dist%>:                                             # ; 
+
 LEXICON COG1
 
 %<np%>%<cog%>:                                               # ;
@@ -350,6 +354,9 @@ LEXICON DET3
 
 %<det%>%<itg%>:                                              # ; 
 
+LEXICON DET4
+
+%<det%>%<qnt%>:                                              # ; 
 
 LEXICON PRON2
 
@@ -387,6 +394,7 @@ laj%<ints%>:laj              # ;
 
 
 taq%<pl%>:taq                # ;
+taq%<pl%>%+ch%<adv%>%<dir%>:taq%>ch # ;
 chaq%<pl%>:chaq              # ;
 kʼis%<pl%>:kʼis              # ;
 
@@ -409,6 +417,7 @@ jwiʼl%<cnjsub%>:jwiʼl        # ; ! "porque"
 
 jaʼ%<part%>:jaʼ              # ; ! "pues"
 chaq%<part%>:chaq            # ; ! ""
+chak%<part%>:chak            # ; ! ""
 
 wi%<part%>:wi                # ; ! "PART" [#]
 wiʼ%<part%>:wiʼ              # ; ! "PART" [#]
@@ -419,7 +428,8 @@ neen%<qst%>:neen             # ; ! "INT" [#]
 neen%<qst%>:nin              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 neen%<qst%>:nen              # ; ! "INT" [#] ! Src/Spell ! Src/SPK1_6-28-19_Xoqoneb7
 
-chkiʼ%<emph%>:chkiʼ          # ; ! "PART-ENF" [#]
+chkiʼ%<neg%>:chkiʼ           # ; ! "PART-ENF" [#]
+tzʼeet%<emph%>:tzʼeet        # ; ! "" 
 
 
 LEXICON Preposiciones 
@@ -431,12 +441,14 @@ laj%<pr%>:laj                # ;
 laʼ%<pr%>:laʼ                # ;
 pu%<pr%>:pu                  # ;
 
+                             Relacionales ; ! FIXME: Comprobar si todos los relacionales se pueden utilizar sin posesivo
 
 ! Contracciones 
 
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" 
 chi%<pr%>%+%<px2sg%>ech%<n%>%<rel%>:ch%>aw%>e # ;  ! "" 
 chi%<pr%>%+%<px1pl%>ech%<n%>%<rel%>:ch%>qe    # ;
+chi%<pr%>%+%<px2pl%>ech%<n%>%<rel%>:ch%>aw%>ech%>aq # ;  ! "" 
 
 chi%<pr%>%+%<px3sg%>xoʼl%<n%>%<rel%>:chi%>j%>xoʼl # ; ! ""
 
@@ -452,6 +464,7 @@ LEXICON Pronombres
 neen:neen                    PRON2 ; ! "qué"
 
 riʼ:riʼ                      PRON3 ; ! "eso es" [#]
+reʼ:reʼ                      PRON3 ; ! ""
 li:li                        PRON3 ; ! "" [#]
 
                              Pers ;
@@ -493,6 +506,8 @@ yaj:yaq                      DET2 ; ! "el"
 
 jun:jun                      DET1 ; ! "un"
 
+juntir:juntir                DET4 ; ! "todos"
+
 jurubʼ:jurubʼ                DET3 ; ! "cuánto"
 
 LEXICON Numerales 
@@ -511,6 +526,8 @@ lajuuj:lajuuj                NUM2 ; ! "diez" [#]
 wunaq:wunaq                  NUM2 ; ! "veintena" [#]
 kawunaq:kawunaq              NUM2 ; ! "cuarenta" [#]
 
+jujun:jujun                  NUM3 ; ! ""
+
 LEXICON Sustantivos 
 
 ichaaj:ich                   N2 ; ! "hierba" [#]
@@ -518,7 +535,8 @@ ichaaj:ich                   N2 ; ! "hierba" [#]
 íxim:ixiim                   N1 ; ! "maíz" [#] ! Use/Spell ! Src/Shoebox
 óoj:óoj                      N1 ; ! "aguacate" [#]
 aabʼ:aabʼ                    N1 ; ! "hamaca" [#]
-tzʼiʼ:tzʼiʼ                  N1 ; ! "perro" [#]
+tzʼiiʼ:tzʼiʼ                 N1 ; ! "perro" [#]
+tzʼiiʼ:tzʼiiʼ                N1 ; ! "" [#]
 uuq:uuq                      N1 ; ! "corte" [#]
 tikoʼn:tikoʼn                N1 ; ! "siembra" [#]
 ikʼlaal:ikʼlaal              N1 ; ! "hijo (de mujer)" [#]
@@ -539,6 +557,7 @@ qajawxeel:qajaw              N6 ; ! "dueño" [#xeel] ! FIXME: qa- poss. ?
 qʼunxeel:qʼun                N6 ; ! "hermano menor" [#xeel]
 
 tinmit:tinmi%{ː%}t           N1 ; ! "pueblo" [#]
+tilmit:tilmit                N1 ; ! "" [#]
 yajeel:yajeel                N1 ; ! "enfermo" [#eel] ! FIXME: comprobar poss = jyaj ?
 kʼeex:kʼeex                  N1 ; ! "trueque" [#]
 kʼaat:kʼaat                  N1 ; ! "red" [#] ! FIXME: comprobar categoria
@@ -565,6 +584,7 @@ junaabʼ:junaabʼ              N1 ; ! "año" [#]
 ánim¹:anim                   N1 ; ! "corazón" [#]
 ánim²:ánim                   N1 ; ! "mujer" [#]
 ánim²:ánm                    N1 ; ! "mujer" [#]
+ánom:ánom                    N1 ; ! "" [#]
 ákʼel:ákʼel                  N1 ; ! "niño" [#]
 ékʼel:ékʼel                  N1 ; ! "niño" [#]
 saqwech:saqwech              N1 ; ! "papa" [#]
@@ -610,6 +630,8 @@ qʼabʼ:qʼabʼ                  N1 ; ! "mano" [#]
 raʼl:aʼl                     N1 ; ! "jugo" [r#]
 tziij:tziij                  N1 ; ! "palabra" [#]
 tziij:tzij                   N1 ; ! "palabra" [#] ! Use/Spell ! Src/Shoebox
+tziijbʼal:tziijbʼal          N1 ; ! "" [#]
+kirtyan:kirtyan              N1 ; ! "" [#]
 tzʼolom:tzʼolom              N1 ; ! "tabla" [#]
 uleew:uleew                  N1 ; ! "hígado" [#]
 wakix:wakix                  N1 ; ! "vaca.toro" [#]
@@ -904,6 +926,35 @@ tradición:tradici            N12 ; ! ""
 
 español:español              N13 ; ! ""
 
+chuuch:chuuch                N1 ; ! "madre"
+mamá:mamá                    N1 ; ! "mamá" [#]
+ékʼl:ékʼl                    N1 ; ! ""
+suteem:suteem                N1 ; ! ""
+lugar:lugar                  N1 ; ! ""
+costumbre:costumbre          N1 ; ! ""
+
+qʼopoj:qʼopoj                N1 ; ! ""
+kuréxm:kuréxm                N1 ; ! ""
+kʼuljaa:kʼuljaa              N1 ; ! ""
+xjooj:xjooj                  N1 ; ! ""
+tiʼnik:tiʼnik                N1 ; ! ""
+qkʼil:qkʼil                  N1 ; ! ""
+kyej:kyej                    N1 ; ! ""
+yoloow:yoloow                N1 ; ! ""
+naan:naan                    N1 ; ! ""
+itzʼyaq:itzʼyaq              N1 ; ! ""
+rkʼilaq:rkʼilaq              N1 ; ! ""
+itzʼiq:itzʼiq                N1 ; ! ""
+
+chaj:chaj                    N1 ; ! ""
+saqmolbʼ:saqmolbʼ            N1 ; ! ""
+kʼomolch:kʼomolch            N1 ; ! ""
+kʼay:kʼay                    N1 ; ! ""
+kamnaq:kamnaq                N1 ; ! ""
+kabʼ:kabʼ                    N1 ; ! ""
+
+utziil:utziil                N1 ; ! ""
+rijil:rijil                  N1 ; ! ""
 
 LEXICON Poseídos 
 
@@ -944,6 +995,10 @@ peech:peech                  REL ; ! "con" [#]
 xaqʼ:xaqʼ                    REL ; ! "" [#]
 xílij:xílij                  REL ; ! "adentro" [#]
 qʼaabʼ:qʼaabʼ                REL ; ! "SR" [#]
+
+xeʼ:xeʼ                      REL ; ! "" [#]
+rikʼi:rikʼi                  REL ; ! "" [#]
+rikʼi:rkʼi                    REL ; ! "" [#]
 
 ! FIXME: Sólo p3
 peech:peech                  REL ; ! ""
@@ -1180,6 +1235,13 @@ kʼex:kʼex                    A ; ! "dolor" [#] ! TODO: Comprobar cat.
 
 rajwéxik:rajwéxik            A ; ! "necesario" [#]
 
+kiitz:kiitz                  A ; ! "" [#]
+kaxlan:kaxlan                A ; ! "" [#]
+chʼam:chʼam                  A ; ! "ácido" [#]
+pach:pach                    A ; ! "" [#]
+kyeq:kyeq                    A ; ! "" [#]
+qʼabʼrel:qʼabʼrel            A ; ! "" [#]
+
 
 
 
@@ -1187,6 +1249,9 @@ LEXICON Adverbios
 
 lamaas:lamaas                ADV2 ; ! "dónde"
 lamaas:lamas                 ADV2 ; ! "dónde" ! Src/Shoebox
+
+nemoo:nemoo                  ADV2 ; ! "" 
+nemoo:nemo                   ADV2 ; ! "" 
 
 chweʼq:chweʼq                ADV1 ; ! "mañana"
 íwir:íwir                    ADV1 ; ! "ayer"
@@ -1230,6 +1295,7 @@ jri:jri                      ADV1 ; ! "allá" [#]
 jliʼ:jliʼ                    ADV1 ; ! "allá" [#]
 maay:maay                    ADV1 ; ! "primeras horas de la noche" [#]
 
+tos:tos                      ADV1 ; ! "entonces" [#]
 
 más:más                      ADV1 ; ! "más" [#]
 ya:ya                        ADV1 ; ! "ya" [#]
@@ -1237,6 +1303,7 @@ pues:pues                    ADV1 ; ! "pues" [#]
 también:también              ADV1 ; ! "también" [#]
 después:después              ADV1 ; ! "después" [#]
 entonces:entonces            ADV1 ; ! "entonces" [#]
+entonces:entoces             ADV1 ; ! "entonces" [#] ! Use/Spell
 aweces:aweces                ADV1 ; ! "a veces" [#]
 
 
@@ -1245,6 +1312,10 @@ juntiir:juntir               ADV1 ; ! "todos" [#] ! Use/Spell
 juntiir:juntiiiiir           ADV1 ; ! "todos" [#] ! Use/Spell ! Src/narrative
 
 kʼii:kʼii                    ADV1 ; ! "mucho" [#]
+jlon:jlon                    ADV1 ; ! "" [#]
+laqʼabʼ:laqʼabʼ              ADV1 ; ! "" [#]
+pur:pur                      ADV1 ; ! "" [#]
+toces:toces                  ADV1 ; ! "" [#]
 
 
 LEXICON TV
@@ -1395,6 +1466,9 @@ bʼij:bʼij                    V-TV ; ! "" [#]
 
 kol:kol                      V-TV ; ! "" [#]
 tzaq:tzaq                    V-TV ; ! "" [#]
+qa:qa                        V-TV ; ! "cargar" [#]
+
+kʼomo:kʼomo                  V-TV ; ! "" ! FIXME: Comprobar tv/iv
 
 LEXICON Irregulares 
 
@@ -1413,6 +1487,7 @@ eeeh%<ij%>:eeeh              # ;
 eeeeh%<ij%>:eeeeh            # ;
 eeeeeh%<ij%>:eeeeeh          # ;
 aaaaah%<ij%>:aaaaah          # ;
+ah%<ij%>:ah                  # ;
 aah%<ij%>:aah                # ;
 aaa%<ij%>:aaa                # ;
 aaah%<ij%>:aaah              # ; 
