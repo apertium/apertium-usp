@@ -871,7 +871,7 @@ táqʼaj:táqʼaj                N1 ; ! "costa" [#]
 teem:teem                    N1 ; ! "banco, tendal" [#]
 tela:tela                    N1 ; ! "tela" [#]
 tiin:tiin                    N1 ; ! "especie de sacate" [#]
-tíjbʼil:tíj                  N1 ; ! "comer" [#bʼil]
+tíjbʼil:tíj%>bʼil            N1 ; ! "comer" [#bʼil]
 tiʼniik:tiʼniik              N1 ; ! "carne" [#]
 toʼl:toʼl                    N1 ; ! "tol" [#]
 tukúlbʼ:tukúlbʼ              N1 ; ! "menear" [#úlbʼ]
@@ -942,9 +942,7 @@ qkʼil:qkʼil                  N1 ; ! ""
 kyej:kyej                    N1 ; ! ""
 yoloow:yoloow                N1 ; ! ""
 naan:naan                    N1 ; ! ""
-itzʼyaq:itzʼyaq              N1 ; ! ""
 rkʼilaq:rkʼilaq              N1 ; ! ""
-itzʼiq:itzʼiq                N1 ; ! ""
 
 chaj:chaj                    N1 ; ! ""
 saqmolbʼ:saqmolbʼ            N1 ; ! ""
@@ -955,6 +953,19 @@ kabʼ:kabʼ                    N1 ; ! ""
 
 utziil:utziil                N1 ; ! ""
 rijil:rijil                  N1 ; ! ""
+qʼaaqʼ:qʼaaqʼ                N1 ; ! ""
+ukʼlaal:ukʼlaal              N1 ; ! ""
+kʼax:kʼax                    N1 ; ! ""
+yólj:yólj                    N1 ; ! ""
+qelen:qelen                  N1 ; ! ""
+wiitz:wiitz                  N1 ; ! ""
+itzʼyaq:itzʼyaq              N1 ; ! ""
+itzʼiq:itzʼiq                N1 ; ! ""
+atzʼiq:atzʼiq                N1 ; ! "" ! FIXME: Comprobar posesivo?
+nimqʼiij:nimqʼiij            N1 ; ! ""
+xoot:xoot                    N1 ; ! ""
+
+iikʼ:iikʼ                    N1 ; ! ""
 
 LEXICON Poseídos 
 
@@ -1396,6 +1407,7 @@ woʼkot:woʼkot                V-IV ; ! "pasear" [#]
 
 ikʼaj:ikʼaj                  V-IV ; ! "sentir" [#]
 
+el:el                        V-IV ; ! ""
 
 LEXICON TVʼ
 
@@ -1463,12 +1475,14 @@ may:may                      V-TV ; ! "penar" [#iik]
 chep:chep                    V-TV ; ! "" [#]
 cheʼ:cheʼ                    V-TV ; ! "" [#]
 bʼij:bʼij                    V-TV ; ! "" [#]
+bʼij:ij                      V-TV ; ! "" [#] ! Use/Spell
 
 kol:kol                      V-TV ; ! "" [#]
 tzaq:tzaq                    V-TV ; ! "" [#]
 qa:qa                        V-TV ; ! "cargar" [#]
 
 kʼomo:kʼomo                  V-TV ; ! "" ! FIXME: Comprobar tv/iv
+
 
 LEXICON Irregulares 
 
