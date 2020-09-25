@@ -502,7 +502,9 @@ o%<cnjcoo%>:o                # ; ! "o"
 jwiʼl%<cnjsub%>:jwiʼl        # ; ! "porque"
 
 jaʼ%<part%>:jaʼ              # ; ! "pues"
-chaq%<part%>:chaq            # ; ! ""
+chaq%<aux%>:chaq            # ; ! ""
+%<impf%>chaq%<aux%>:ti%>chaq  # ; ! ""
+%<perf%>chaq%<aux%>:xi%>chaq  # ; ! ""
 chak%<part%>:chak            # ; ! ""
 
 wi%<part%>:wi                # ; ! "PART" [#]
@@ -1121,8 +1123,9 @@ asiyar:asiyar                N1 ; ! "" ! Src/Palmer
 asron:asron                  N1 ; ! "" ! Src/Palmer
 asukr:asukr                  N1 ; ! "" ! Src/Palmer
 atziq:atziq                  N1 ; ! "" ! Src/Palmer
-ausilaa:ausilaa              N1 ; ! "" ! Src/Palmer
+ausiliyar:ausilaa            N1 ; ! "" ! Src/Palmer
 ausiliyar:ausiliyar          N1 ; ! "" ! Src/Palmer
+ausiliyar:ausilyar           N1 ; ! "" ! Src/Palmer
 awaaj:awaaj                  N1 ; ! "" ! Src/Palmer
 awas:awas                    N1 ; ! "" ! Src/Palmer
 awriyen:awriyen              N1 ; ! "" ! Src/Palmer
