@@ -2153,7 +2153,6 @@ yuuq:yuuq V-IV ; ! "" ! Src/Palmer
 wer:wer V-IV ; ! "" ! Src/Palmer
 peet:peet V-IV ; ! "" ! Src/Palmer
 yu:yu V-IV ; ! "" ! Src/Palmer
-w:w V-IV ; ! "" ! Src/Palmer
 chʼaw:chʼaw V-IV ; ! "" ! Src/Palmer
 yolow:yolow V-IV ; ! "" ! Src/Palmer
 qʼaax:qʼaax V-IV ; ! "" ! Src/Palmer
@@ -2167,6 +2166,10 @@ kʼisiʼ:kʼisiʼ V-IV ; ! "" ! Src/Palmer
 kʼiʼ:kʼiʼ V-IV ; ! "" ! Src/Palmer
 yuʼ:yuʼ V-IV ; ! "" ! Src/Palmer
 
+bʼison:bʼison                V-IV ; ! ""
+bʼison:bʼeson                V-IV ; ! ""
+bʼison:bʼiison               V-IV ; ! ""
+bʼison:bʼiisoʼn              V-IV ; ! ""
 
 LEXICON TVʼ
 
