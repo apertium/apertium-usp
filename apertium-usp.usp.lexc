@@ -452,6 +452,13 @@ pu%<pr%>:pu                  # ;
 
                              Relacionales ; ! FIXME: Comprobar si todos los relacionales se pueden utilizar sin posesivo
 
+! Prestamos / barbarismos
+
+de%<pr%>%<barb%>:de          # ; 
+en%<pr%>%<barb%>:en          # ; 
+a%<pr%>%<barb%>:a            # ; 
+para%<pr%>%<barb%>:para      # ; 
+
 ! Contracciones 
 
 chi%<pr%>%+%<px1sg%>ech%<n%>%<rel%>:ch%>w%>e # ;  ! "" 
@@ -767,6 +774,7 @@ ajtijiibʼ:aj%>tij            N1 ; ! "enseñar" [aj#iibʼ]
 ajtyoox:aj%>tyoox            N1 ; ! "santo" [aj#]
 ajtzooʼ:ajtzooʼ              N1 ; ! "chompipe" [#]
 ajtzʼaaq:aj%>tzʼaaq          N1 ; ! "muro" [aj#]
+tzʼiibʼ:tzʼiibʼ              N1 ; ! "" [aj#]
 ajtzʼiibʼ:aj%>tzʼiibʼ        N1 ; ! "escritura" [aj#]
 ajtzʼiibʼ:aj%>tzʼibʼ         N1 ; ! "escritura" [ajtzʼiibʼ]
 ajxójil:aj%>xoj              N1 ; ! "baile" [ajxójil]
@@ -799,7 +807,7 @@ itzʼabʼ:itzʼabʼ              N1 ; ! "juguete" [#]
 jabʼ:jabʼ                    N1 ; ! "lluvia" [#]
 !jabʼaal:jabʼ                N1 ; ! "lluvia" [#aal]
 jal:jal                      N1 ; ! "mazorca" [#]
-jaʼtyoox:jaʼtyoox               N1 ; ! "santo" [jaʼ#]
+jaʼtyoox:jaʼtyoox            N1 ; ! "santo" [jaʼ#]
 !jchaqiil:chaq                N1 ; ! "áspero" [j#iil]
 !jcholajiil:jcholajiil        N1 ; ! "manera" [j#iil]
 !jchuwiil:jchuwiil            N1 ; ! "hediondo" [j#wiil]
@@ -817,6 +825,7 @@ jxàbʼ:xjabʼ                  N1 ; ! "caites" [jxàbʼ]
 kaaj:kaaj                    N1 ; ! "cielo" [#]
 kaaʼ:kaaʼ                    N1 ; ! "muela" [#]
 kamnaqibʼ:kamnaqibʼ          N1 ; ! "muerto" [#ibʼ]
+kamnaqibʼ:komnaqibʼ          N1 ; ! "muerto" [#ibʼ] ! Use/Spell
 kaquljaaw:kaquljaaw          N1 ; ! "Dios" [kaquljaaw]
 kar:kar                      N1 ; ! "pez" [#]
 kaybʼal:kaybʼal              N1 ; ! "cara" [#]
@@ -830,7 +839,7 @@ kukubʼ:kukubʼ                N1 ; ! "hoyuelo" [#]
 kuxtaar:kuxtaar              N1 ; ! "costal" [#]
 kʼaam:kʼaam                  N1 ; ! "cuerda" [#]
 kʼaas:kʼaas                  N1 ; ! "deuda" [#]
-kʼajolbʼal:kʼajol%>bʼal            N1 ; ! "hijo" [#bʼal]
+kʼajolbʼal:kʼajol%>bʼal      N1 ; ! "hijo" [#bʼal]
 kʼaslemaal:kʼaslem           N1 ; ! "vivo" [#aal]
 kʼáybʼil:kay%>bʼil           N1 ; ! "venta" [kʼáybʼil]
 kʼáybʼil:kʼay%>bʼil          N1 ; ! "venta" [kʼáybʼil]
@@ -919,6 +928,7 @@ año:año                      N11 ; ! "año"
 leña:leña                    N11 ; ! ""
 baño:baño                    N11 ; ! ""
 
+verdad:verdad                N13 ; ! ""
 actualidad:actualidad        N13 ; ! ""
 ambición:ambici              N12 ; ! ""
 autoridad:autoridad          N13 ; ! ""
@@ -952,6 +962,7 @@ kyej:kyej                    N1 ; ! ""
 yoloow:yoloow                N1 ; ! ""
 naan:naan                    N1 ; ! ""
 rkʼilaq:rkʼilaq              N1 ; ! ""
+rkʼil:rkʼil                  N1 ; ! ""
 
 chaj:chaj                    N1 ; ! ""
 saqmolbʼ:saqmolbʼ            N1 ; ! ""
@@ -997,8 +1008,6 @@ bʼaa:bʼaa                    REL ; ! "sobre de"
 bʼaa:bʼa                     REL ; ! "SR" ! Use/Spell ! Src/Dico
 achaq:achaq                  REL ; ! "?"
 xúkut:xúkut                  REL ; ! "al lado de"
-ikʼil:ikʼil                  REL ; ! "?"
-ikʼiil:ikʼiil                REL ; ! "SR" [-#]
 chiʼ:chiʼ                    REL ; ! "orilla de"
 iibʼ:iibʼ                    REL ; ! "" 
 iibʼ:ibʼ                     REL ; ! ""  ! Use/Spell ! Src/Shoebox
@@ -1017,8 +1026,17 @@ xílij:xílij                  REL ; ! "adentro" [#]
 qʼaabʼ:qʼaabʼ                REL ; ! "SR" [#]
 
 xeʼ:xeʼ                      REL ; ! "" [#]
-rikʼi:rikʼi                  REL ; ! "" [#]
-rikʼi:rkʼi                    REL ; ! "" [#]
+
+ikʼil:ikʼil                  REL ; ! "?"
+ikʼil:%{y%}kʼil              REL ; ! "?"
+ikʼil:%{y%}kʼi               REL ; ! "?"
+ikʼil:ikʼiil                 REL ; ! "SR" [-#]
+ikʼil:%{y%}kʼiil             REL ; ! "SR" [-#]
+ikʼil:ikʼi                   REL ; ! "?"
+
+!rikʼi:rikʼi                  REL ; ! "" [#]
+!rikʼi:rkʼi                   REL ; ! "" [#]
+!rkʼil:rkʼil                  REL ; ! ""
 
 ! FIXME: Sólo p3
 peech:peech                  REL ; ! ""
@@ -1160,6 +1178,39 @@ Liix:Liix                    ANTM ; ! "Andrés" [#]
 Leex:Leex                    ANTM ; ! "Andrés" [#]
 Ixtuubʼ:Ixtuubʼ              ANTM ; ! "Cristobal" [#]
 Bʼex:Bʼex                    ANTM ; ! "Sebastián" [#]
+
+Angel:Angel                  ANTM ; ! ""
+Angelika:Angelika            ANTF ; ! ""
+Awsiliyadora:Awsiliyadora    ANTF ; ! ""
+Baltasar:Baltasar            ANTM ; ! ""
+Beyaldama:Beyaldama          ANTF ; ! ""
+Isidr:Isidr                  ANTM ; ! ""
+Jwana:Jwana                  ANTF ; ! ""
+Jwanita:Jwanita              ANTF ; ! ""
+Katalina:Katalina            ANTF ; ! ""
+Katarina:Katarina            ANTF ; ! ""
+Lester:Lester                ANTM ; ! ""
+Liyandro:Liyandro            ANTM ; ! ""
+Lupita:Lupita                ANTF ; ! ""
+Manuel:Manuel                ANTM ; ! ""
+Mari:Mari                    ANTF ; ! ""
+Maria:Maria                  ANTF ; ! ""
+Marimar:Marimar              ANTF ; ! ""
+Mariya:Mariya                ANTF ; ! ""
+Pawl:Pawl                    ANTM ; ! ""
+Páwl:Páwl                    ANTM ; ! ""
+Pawlo:Pawlo                  ANTM ; ! ""
+Pedro:Pedro                  ANTM ; ! ""
+Renat:Renat                  ANTM ; ! ""
+Renato:Renato                ANTM ; ! ""
+Sergi:Sergi                  ANTM ; ! ""
+Sergiy:Sergiy                ANTM ; ! ""
+Sergiyo:Sergiyo              ANTM ; ! ""
+Sergiyos:Sergiyos            ANTM ; ! ""
+Vicente:Vicente              ANTM ; ! ""
+Xwaan:Xwaan                  ANTM ; ! ""
+Yesika:Yesika                ANTF ; ! ""
+
 
 
 
@@ -1327,9 +1378,11 @@ entonces:entoces             ADV1 ; ! "entonces" [#] ! Use/Spell
 aweces:aweces                ADV1 ; ! "a veces" [#]
 
 
+! FIXME: Comprobar DET?
 juntiir:juntiir              ADV1 ; ! "todos" [#]
 juntiir:juntir               ADV1 ; ! "todos" [#] ! Use/Spell 
 juntiir:juntiiiiir           ADV1 ; ! "todos" [#] ! Use/Spell ! Src/narrative
+juntiir:junttir              ADV1 ; ! "todos" [#] ! Use/Spell ! Src/narrative
 
 kʼii:kʼii                    ADV1 ; ! "mucho" [#]
 jlon:jlon                    ADV1 ; ! "" [#]
@@ -1500,6 +1553,7 @@ kʼomo:kʼomo                  V-TV ; ! "" ! FIXME: Comprobar tv/iv
 tij:tij                      V-TV ; ! ""
 koj:koj                      V-TV ; ! ""
 sach:sach                    V-TV ; ! "perder"
+tzʼiibʼan:tzʼiibʼan          V-TV ; ! ""
 
 
 LEXICON Irregulares 
